@@ -9,15 +9,23 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Navbar from "./navbar"
+import NavbarBottom from "./navbar-bottom"
 import Header from "./header"
-import "./layout.css"
+import Footer from "./footer"
+//import "./layout.css"
+import "semantic-ui-css/semantic.min.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+    query SiteMetadataQuery {
       site {
         siteMetadata {
           title
+          social {
+            name
+            url
+          }
         }
       }
     }
@@ -25,6 +33,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Navbar />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -34,12 +43,9 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        {children}
+        <Footer social={data.site.siteMetadata.social} />
+        <NavbarBottom />
       </div>
     </>
   )

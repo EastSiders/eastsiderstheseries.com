@@ -1,8 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Eastsiders The Series`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@aydrian`,
+    email: "eastsiderstv@gmail.com",
+    social: [
+      { name: "facebook", url: "https://www.facebook.com/EastSidersTheSeries" },
+      { name: "twitter", url: "https://twitter.com/eastsidersTV" },
+      { name: "instagram", url: "https://instagram.com/eastsiderstv/" },
+      { name: "tumblr", url: "https://eastsiderstheseries.tumblr.com/" },
+      { name: "patreon", url: "https://www.patreon.com/kitwilliamson" },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
