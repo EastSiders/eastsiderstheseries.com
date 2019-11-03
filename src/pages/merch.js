@@ -1,9 +1,15 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 //import { Link } from "gatsby"
+import { Card, Image } from "semantic-ui-react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+const numFormat = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+})
 
 const MerchPage = () => {
   const data = useStaticQuery(graphql`
@@ -33,17 +39,21 @@ const MerchPage = () => {
         </a>
         .
       </p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <ul>
-          {merch.map(item => {
-            return (
-              <li key="item.id">
-                <a href="{item.url}">{item.name}</a>
-              </li>
-            )
-          })}
-        </ul>
-      </div>
+      <Card.Group centered>
+        {merch.map(item => {
+          return (
+            <Card key="item.id" href={item.url} target="_blank">
+              <Image src={item.thumbnail} />
+              <Card.Content>
+                <Card.Header>{item.name}</Card.Header>
+                <Card.Description>
+                  {numFormat.format(item.price)}
+                </Card.Description>
+              </Card.Content>
+            </Card>
+          )
+        })}
+      </Card.Group>
     </Layout>
   )
 }
