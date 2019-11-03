@@ -5,7 +5,9 @@ const Footer = ({ social }) => (
   <footer>
     <List horizontal size="large">
       {social.map(item => {
-        return <List.Item as="a" href={item.url} icon={item.name} />
+        return (
+          <List.Item as="a" href={item.url} icon={item.name} key={item.name} />
+        )
       })}
     </List>
     <br />© {new Date().getFullYear()}, Built with

@@ -14,6 +14,7 @@ import NavbarBottom from "./navbar-bottom"
 import Header from "./header"
 import Footer from "./footer"
 //import "./layout.css"
+import "../fonts/fonts.css"
 import "semantic-ui-css/semantic.min.css"
 
 const Layout = ({ children }) => {

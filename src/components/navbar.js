@@ -1,6 +1,13 @@
 import React, { Component } from "react"
-import { Link, withPrefix } from "gatsby"
+//import { Link, withPrefix } from "gatsby"
+import { Link } from "gatsby"
 import { Container, Menu, Responsive, Visibility } from "semantic-ui-react"
+
+import "./navbar.css"
+
+const stoneSansFont = {
+  fontFamily: "'ITC Stone Sans Std Bold 24796'",
+}
 
 const menuStyle = {
   border: "none",
@@ -12,8 +19,9 @@ const menuStyle = {
 }
 
 const fixedMenuStyle = {
-  backgroundColor: "#fff",
-  border: "1px solid #ddd",
+  //backgroundColor: "#fff",
+  backgroundColor: "#156592",
+  borderBottom: "1px solid #ddd",
   boxShadow: "0px 3px 5px rgba(0, 0, 0, 0.2)",
 }
 
@@ -32,9 +40,9 @@ export default class Navbar extends Component {
   render() {
     const { menuFixed, width } = this.state
     const menuWidths = width >= Responsive.onlyTablet.maxWidth ? null : 1
-    const isHomepage =
+    /*const isHomepage =
       typeof window !== "undefined" &&
-      window.location.pathname === withPrefix("/")
+      window.location.pathname === withPrefix("/")*/
 
     return (
       <Visibility
@@ -46,7 +54,8 @@ export default class Navbar extends Component {
         <Responsive
           as={Menu}
           borderless
-          inverted={menuFixed || !isHomepage ? false : true}
+          inverted
+          //inverted={menuFixed || !isHomepage ? false : true}
           fixed={"top"}
           style={menuFixed ? fixedMenuStyle : menuStyle}
           fireOnMount
@@ -55,7 +64,7 @@ export default class Navbar extends Component {
         >
           <Container text>
             <Menu.Item header as={Link} to="/">
-              Eastsiders Logo
+              <span style={stoneSansFont}>EASTSIDERS</span>
             </Menu.Item>
 
             <Responsive
@@ -63,14 +72,14 @@ export default class Navbar extends Component {
               position="right"
               {...Responsive.onlyComputer}
             >
-              <Menu.Item as={Link} activeClassName="active" to="/">
-                Watch
+              <Menu.Item as={Link} activeClassName="active" to="/watch">
+                WATCH
               </Menu.Item>
-              <Menu.Item as={Link} activeClassName="active" to="/">
-                Merch
+              <Menu.Item as={Link} activeClassName="active" to="/merch">
+                MERCH
               </Menu.Item>
-              <Menu.Item as={Link} activeClassName="active" to="/">
-                More
+              <Menu.Item as={Link} activeClassName="active" to="/more">
+                MORE
               </Menu.Item>
             </Responsive>
           </Container>
