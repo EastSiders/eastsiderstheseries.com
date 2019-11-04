@@ -42,7 +42,7 @@ const MerchPage = () => {
       <Card.Group centered>
         {merch.map(item => {
           return (
-            <Card key="item.id" href={item.url} target="_blank">
+            <Card key={item.id} href={item.url} target="_blank">
               <Image src={item.thumbnail} />
               <Card.Content>
                 <Card.Header>{item.name}</Card.Header>

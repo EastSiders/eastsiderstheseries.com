@@ -5,11 +5,31 @@ module.exports = {
     author: `@aydrian`,
     email: "eastsiderstv@gmail.com",
     social: [
-      { name: "facebook", url: "https://www.facebook.com/EastSidersTheSeries" },
-      { name: "twitter", url: "https://twitter.com/eastsidersTV" },
-      { name: "instagram", url: "https://instagram.com/eastsiderstv/" },
-      { name: "tumblr", url: "https://eastsiderstheseries.tumblr.com/" },
-      { name: "patreon", url: "https://www.patreon.com/kitwilliamson" },
+      {
+        name: "Facebook",
+        url: "https://www.facebook.com/EastSidersTheSeries",
+        icon: "facebook",
+      },
+      {
+        name: "Twitter",
+        url: "https://twitter.com/eastsidersTV",
+        icon: "twitter",
+      },
+      {
+        name: "Instagram",
+        url: "https://instagram.com/eastsiderstv/",
+        icon: "instagram",
+      },
+      {
+        name: "Tumblr",
+        url: "https://eastsiderstheseries.tumblr.com/",
+        icon: "tumblr",
+      },
+      {
+        name: "Patreon",
+        url: "https://www.patreon.com/kitwilliamson",
+        icon: "patreon",
+      },
     ],
   },
   plugins: [
@@ -46,6 +66,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `data`,
         path: `${__dirname}/src/data/`,
       },
     },

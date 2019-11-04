@@ -1,22 +1,32 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Social from "./social"
+import Logo from "./logo"
+//import { Header } from "semantic-ui-react"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, social }) => (
   <header
     style={{
       background: `#156592`,
       marginBottom: `1.45rem`,
+      backgroundImage: `url(${"./images/hero_images/central-park-thom-cal.jpg"})`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      width: "100vw",
+      height: "60vh",
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
+        margin: `auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `16rem 1.0875rem`,
+        textAlign: `center`,
       }}
     >
-      <h1 style={{ margin: 0, fontFamily: "ITC Stone Sans Std Bold 24796" }}>
+      <h1 style={{ fontSize: "4rem" }}>
         <Link
           to="/"
           style={{
@@ -24,9 +34,10 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <Logo />
         </Link>
       </h1>
+      <Social social={social} />
     </div>
   </header>
 )

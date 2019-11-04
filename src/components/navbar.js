@@ -2,12 +2,9 @@ import React, { Component } from "react"
 //import { Link, withPrefix } from "gatsby"
 import { Link } from "gatsby"
 import { Container, Menu, Responsive, Visibility } from "semantic-ui-react"
+import Logo from "./logo"
 
 import "./navbar.css"
-
-const stoneSansFont = {
-  fontFamily: "'ITC Stone Sans Std Bold 24796'",
-}
 
 const menuStyle = {
   border: "none",
@@ -19,9 +16,7 @@ const menuStyle = {
 }
 
 const fixedMenuStyle = {
-  //backgroundColor: "#fff",
   backgroundColor: "#156592",
-  borderBottom: "1px solid #ddd",
   boxShadow: "0px 3px 5px rgba(0, 0, 0, 0.2)",
 }
 
@@ -62,9 +57,9 @@ export default class Navbar extends Component {
           onUpdate={this.handleOnUpdate}
           widths={menuWidths}
         >
-          <Container text>
+          <Container>
             <Menu.Item header as={Link} to="/">
-              <span style={stoneSansFont}>EASTSIDERS</span>
+              <Logo oneColor={menuFixed} />
             </Menu.Item>
 
             <Responsive
