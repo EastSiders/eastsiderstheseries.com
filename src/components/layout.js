@@ -31,15 +31,33 @@ const Layout = ({ children }) => {
           }
         }
       }
+      heroImages: allFile(
+        filter: {
+          internal: { mediaType: { regex: "/image/" } }
+          relativePath: { regex: "/hero_images/" }
+        }
+      ) {
+        edges {
+          node {
+            base
+            childImageSharp {
+              fluid(maxWidth: 1600) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
     }
   `)
-
+  console.log(`Hero Images:`, data.heroImages.edges)
   return (
     <>
       <Navbar />
       <Header
         siteTitle={data.site.siteMetadata.title}
         social={data.site.siteMetadata.social}
+        heroImages={data.heroImages.edges}
       />
       <Container>
         {children}
