@@ -7,7 +7,7 @@ const IconWrapper = styled.div`
   bottom: 0;
   left: 0;
   right: 0;
-  text-align: center;
+  text-align: right;
   margin: 0 auto;
   svg {
     color: white;

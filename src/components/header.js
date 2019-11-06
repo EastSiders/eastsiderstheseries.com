@@ -8,7 +8,6 @@ import Hero from "./hero"
 const Header = ({ social, heroImages }) => {
   const randomImage = () => {
     const randImage = heroImages[Math.floor(Math.random() * heroImages.length)]
-    console.log("Random Image:", randImage)
     return randImage.node.childImageSharp.fluid
   }
 
@@ -31,11 +30,8 @@ const Header = ({ social, heroImages }) => {
 }
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+  social: PropTypes.array,
+  heroImages: PropTypes.array,
 }
 
 export default Header

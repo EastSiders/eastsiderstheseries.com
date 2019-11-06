@@ -1,0 +1,282 @@
+[
+  {
+    "season": 1,
+    "title": "Summer (Young and Golden)",
+    "artist": {
+      "name": "Blue Bottle Collection",
+      "url": "http://bluebottlecollection.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/summer-young-golden/429244885?i=429245064"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Cheetah",
+    "artist": {
+      "name": "Brad Walsh",
+      "url": "https://www.bradwalsh.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/cheetah/441743122?i=441743178"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Human Nature",
+    "artist": {
+      "name": "Brad Walsh",
+      "url": "https://www.bradwalsh.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://itunes.apple.com/us/album/human-nature/id332657179"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Touch Me",
+    "artist": {
+      "name": "Brad Walsh",
+      "url": "https://www.bradwalsh.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://itunes.apple.com/us/album/touch-me-f.-alan-mx-alicia/id332657179?i=332657517"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Amazing",
+    "artist": {
+      "name": "Hi Fashion",
+      "url": "http://www.theworldofhifashion.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/amazing/452733626?i=452733635"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "What We Say",
+    "artist": {
+      "name": "Illumination Road",
+      "url": "https://soundcloud.com/illuminationroad"
+    },
+    "urls": [
+      {
+        "type": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Let It Break",
+    "artist": {
+      "name": "Jenny Weaver",
+      "url": "http://jennyweavermusic.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/let-it-break/603369548?i=603369985"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Dickmatized",
+    "artist": {
+      "name": "Jonny McGovern",
+      "url": "https://www.jonnymcgovern.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/dickmatized/489403111?i=489403112"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Too Fast Too Close",
+    "artist": {
+      "name": "The Lexingtons",
+      "url": "https://lexingtons.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://lexingtons.bandcamp.com/track/too-fast-too-close-2"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Your Man",
+    "artist": {
+      "name": "The Lexingtons",
+      "url": "https://lexingtons.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://lexingtons.bandcamp.com/track/your-man"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Silent Night",
+    "artist": {
+      "name": "Little Brutes",
+      "url": "https://littlebrutes.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://littlebrutes.bandcamp.com/track/silent-night"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Where I Used to Be",
+    "artist": {
+      "name": "Little Brutes",
+      "url": "https://littlebrutes.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://littlebrutes.bandcamp.com/track/where-i-used-to-be"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "When Your Body Breaks",
+    "artist": {
+      "name": "Max Vernon",
+      "url": "https://www.maxvernon.com/"
+    },
+    "urls": [
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/maxvernon/when-your-body-breaks"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Your Girlfriend",
+    "artist": {
+      "name": "Max Vernon",
+      "url": "https://www.maxvernon.com/"
+    },
+    "urls": [
+      {
+        "type": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Let Love Sail",
+    "artist": {
+      "name": "Michael Mirlas",
+      "url": "http://ourstage.com/profile/michaelmirlas"
+    },
+    "urls": [
+      {
+        "type": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "The Darkside",
+    "artist": {
+      "name": "Ryan MacGrath",
+      "url": "https://ryanmacgrathmusic.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://ryanmacgrathmusic.bandcamp.com/track/the-darkside"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Run",
+    "artist": {
+      "name": "Ryan MacGrath",
+      "url": "https://ryanmacgrathmusic.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://ryanmacgrathmusic.bandcamp.com/track/run"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "Cruelest Kind",
+    "artist": {
+      "name": "Willow Willow",
+      "url": "https://myspace.com/willowwillow"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/the-cruelest-kind/951804017?i=951804131"
+      }
+    ]
+  },
+  {
+    "season": 1,
+    "title": "My Little Cloud",
+    "artist": {
+      "name": "Willow Willow",
+      "url": "https://myspace.com/willowwillow"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/my-little-cloud/951804017?i=951804085"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "",
+    "artist": {
+      "name": "",
+      "url": ""
+    },
+    "urls": [
+      {
+        "type": "",
+        "url": ""
+      }
+    ]
+  }
+]

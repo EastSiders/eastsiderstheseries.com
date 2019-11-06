@@ -14,6 +14,7 @@ const Logo = ({ oneColor }) => (
 
 Logo.propTypes = {
   oneColor: PropTypes.bool,
+  as: PropTypes.element,
 }
 
 Logo.defaultProps = {

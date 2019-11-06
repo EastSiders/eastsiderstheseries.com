@@ -1,0 +1,29 @@
+[
+  {
+    "season": 1,
+    "year": 2012,
+    "imdb": "https://www.imdb.com/title/tt2558816/episodes?season=1",
+    "trailer": {
+      "id": "QLidpRiqbMc",
+      "source": "youtube"
+    }
+  },
+  {
+    "season": 2,
+    "year": 2015,
+    "imdb": "https://www.imdb.com/title/tt2558816/episodes?season=2",
+    "trailer": {
+      "id": "Q1XjIBjY-3E",
+      "source": "youtube"
+    }
+  },
+  {
+    "season": 3,
+    "year": 2017,
+    "imdb": "https://www.imdb.com/title/tt2558816/episodes?season=3",
+    "trailer": {
+      "id": "q2FgE7G4LAc",
+      "source": "youtube"
+    }
+  }
+]

@@ -50,7 +50,6 @@ const Layout = ({ children }) => {
       }
     }
   `)
-  console.log(`Hero Images:`, data.heroImages.edges)
   return (
     <>
       <Navbar />
