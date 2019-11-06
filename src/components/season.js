@@ -4,7 +4,16 @@ import Soundtrack from "./soundtrack"
 import Press from "./press"
 import CastList from "./castlist"
 
-const Season = ({ season, year, imdb, trailer, cast, soundtrack, press }) => {
+const Season = ({
+  season,
+  year,
+  imdb,
+  trailer,
+  cast,
+  soundtrack,
+  press,
+  synopsis,
+}) => {
   return (
     <Container>
       <Header as="h1">
@@ -13,6 +22,7 @@ const Season = ({ season, year, imdb, trailer, cast, soundtrack, press }) => {
           <Icon name="imdb" />
         </a>
       </Header>
+      <p style={{ whiteSpace: "pre-wrap" }}>{synopsis}</p>
       <Embed
         id={trailer.id}
         source={trailer.source}

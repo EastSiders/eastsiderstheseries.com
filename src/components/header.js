@@ -11,7 +11,7 @@ const Header = ({ social, heroImages }) => {
     const randImage = heroImages[Math.floor(Math.random() * heroImages.length)]
     return randImage.node.childImageSharp.fluid
   }
-  console.log(width, Responsive.onlyTablet.minWidth)
+
   return (
     <Responsive
       as={Hero}

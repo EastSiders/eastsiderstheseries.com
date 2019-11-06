@@ -15,6 +15,7 @@ export const query = graphql`
         source
       }
       year
+      synopsis
       cast {
         id
         name
