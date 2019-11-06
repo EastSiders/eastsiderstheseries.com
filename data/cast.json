@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Kit Williamson",
+    "character": "Cal",
+    "appearsIn": [1, 2, 3, 4],
+    "imdb": "https://www.imdb.com/name/nm2639311/",
+    "social": [
+      { "type": "website", "url": "http://kitwilliamson.com/" },
+      { "type": "twitter", "url": "https://twitter.com/kitwilliamson" },
+      { "type": "instagram", "url": "https://www.instagram.com/kitwilliamson" },
+      {
+        "type": "facebook",
+        "url": "https://www.facebook.com/ActorKitWilliamson/"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCTOLo78WHiOP3LdAe9IauwQ"
+      }
+    ]
+  },
+  {
+    "name": "Van Hansis",
+    "character": "Thom",
+    "appearsIn": [1, 2, 3, 4],
+    "imdb": "https://www.imdb.com/name/nm2082499/"
+  },
+  {
+    "name": "Matthew McKelligon",
+    "character": "Jeremy",
+    "appearsIn": [1, 2, 3, 4],
+    "imdb": "https://www.imdb.com/name/nm4307643/"
+  },
+  {
+    "name": "John Halbach",
+    "character": "Ian",
+    "appearsIn": [1, 2, 3, 4],
+    "imdb": "https://www.imdb.com/name/nm3982128/"
+  },
+  {
+    "name": "Stephen Guarino",
+    "character": "Quincy",
+    "appearsIn": [1, 2, 3, 4],
+    "imdb": "https://www.imdb.com/name/nm0345399/"
+  },
+  {
+    "name": "Willam Belli",
+    "character": "Douglas",
+    "appearsIn": [2, 3, 4],
+    "imdb": "https://www.imdb.com/name/nm1316418/"
+  }
+]

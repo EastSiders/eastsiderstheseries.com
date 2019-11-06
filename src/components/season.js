@@ -2,8 +2,9 @@ import React from "react"
 import { Container, Header, Embed, Icon } from "semantic-ui-react"
 import Soundtrack from "./soundtrack"
 import Press from "./press"
+import CastList from "./castlist"
 
-const Season = ({ season, year, imdb, trailer, soundtrack, press }) => {
+const Season = ({ season, year, imdb, trailer, cast, soundtrack, press }) => {
   return (
     <Container>
       <Header as="h1">
@@ -18,6 +19,12 @@ const Season = ({ season, year, imdb, trailer, soundtrack, press }) => {
         autoplay={false}
         defaultActive
       />
+      {cast && (
+        <>
+          <Header as="h2">Cast</Header>
+          <CastList cast={cast} />
+        </>
+      )}
       {soundtrack && (
         <>
           <Header as="h2">Soundtrack</Header>

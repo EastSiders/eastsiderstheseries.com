@@ -11,6 +11,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type SeasonsJson implements Node {
       soundtrack: [SongsJson] @link(by: "season", from: "season")
       press: [PressJson] @link(by: "season", from: "season")
+      cast: [CastJson] @link(by: "appearsIn", from: "season")
     }
   `
   createTypes(typeDefs)

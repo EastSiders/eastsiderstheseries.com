@@ -15,6 +15,12 @@ export const query = graphql`
         source
       }
       year
+      cast {
+        id
+        name
+        character
+        imdb
+      }
       soundtrack {
         id
         title
