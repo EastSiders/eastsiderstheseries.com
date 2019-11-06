@@ -6,15 +6,14 @@ const baseStyle = {
   textTransform: "uppercase",
 }
 
-const Logo = ({ oneColor }) => (
-  <span style={{ ...baseStyle }}>
+const Logo = ({ oneColor, style }) => (
+  <span style={{ ...baseStyle, ...style }}>
     <span style={oneColor ? {} : { color: "#156592" }}>East</span>siders
   </span>
 )
 
 Logo.propTypes = {
   oneColor: PropTypes.bool,
-  as: PropTypes.element,
 }
 
 Logo.defaultProps = {

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Eastsiders The Series`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Chronicalling infidelity and substance abuse of a gay couple living in Silver Lake, Los Angeles.`,
     author: `@aydrian`,
     email: "eastsiderstv@gmail.com",
     social: [
