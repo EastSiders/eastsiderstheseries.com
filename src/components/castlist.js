@@ -3,14 +3,14 @@ import { Item } from "semantic-ui-react"
 
 const CastList = ({ cast }) => (
   <Item.Group>
-    {cast.map(actor => {
+    {cast.map(({ id, imdb, name, character }) => {
       return (
-        <Item key={actor.id}>
+        <Item key={id}>
           <Item.Content>
-            <Item.Header as="a" href={actor.imdb}>
-              {actor.name}
+            <Item.Header as="a" href={imdb}>
+              {name}
             </Item.Header>
-            <Item.Meta>{actor.character}</Item.Meta>
+            <Item.Meta>{character}</Item.Meta>
           </Item.Content>
         </Item>
       )
