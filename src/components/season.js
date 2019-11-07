@@ -58,12 +58,14 @@ const Season = ({
         </p>
       )}
       <p style={{ whiteSpace: "pre-wrap" }}>{synopsis}</p>
-      <Embed
-        id={trailer.id}
-        source={trailer.source}
-        autoplay={false}
-        defaultActive
-      />
+      {trailer && (
+        <Embed
+          id={trailer.id}
+          source={trailer.source}
+          autoplay={false}
+          defaultActive
+        />
+      )}
       {cast && (
         <>
           <Header as="h2">Cast</Header>

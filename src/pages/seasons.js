@@ -10,24 +10,46 @@ import { Container, Header, List } from "semantic-ui-react"
 const SeasonsPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allSeasonsJson(sort: { fields: season, order: ASC }) {
+      prevSeasons: allSeasonsJson(
+        filter: { featured: { ne: true } }
+        sort: { fields: season, order: ASC }
+      ) {
         nodes {
           id
           season
           year
         }
       }
+      featuredSeason: seasonsJson(featured: { eq: true }) {
+        id
+        season
+        year
+        imdb
+        stream {
+          source
+          url
+        }
+      }
     }
   `)
-  const seasons = data.allSeasonsJson.nodes
+  const {
+    featuredSeason,
+    prevSeasons: { nodes: prevSeasons },
+  } = data
   return (
     <Layout>
       <SEO title="Seasons" />
       <Container>
-        <Header as="h1">Watch Season 4</Header>
-        <Header as="h3">All Seasons</Header>
+        <Header as="h1">Watch Season {featuredSeason.season}</Header>
+        <Header as="h2">
+          Stream on{" "}
+          <a href={featuredSeason.stream[0].url}>
+            {featuredSeason.stream[0].source}
+          </a>
+        </Header>
+        <Header as="h3">Previous Seasons</Header>
         <List horizontal>
-          {seasons.map(season => {
+          {prevSeasons.map(season => {
             return (
               <List.Item
                 as={Link}

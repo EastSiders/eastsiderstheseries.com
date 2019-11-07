@@ -59,5 +59,14 @@
       { "source": "netflix", "url": "https://www.netflix.com/title/70304246" }
     ],
     "synopsis": "After a year in New York City, Cal and Thom pack up and head on a cross-country road trip back to Silverlake, CA.\n\nSeason two of the Daytime Emmy® nominated series, “EastSiders,” left Cal and Thom determined to make things work, despite some confusing developments in their newly monogomish relationship. After a challenging year in New York City, the guys hit the road back west to Los Angeles to pick up the pieces of their old life, but nothing can prepare them for the unexpected twists and turns they’ll face on the journey home. As they travel west, their tumultuous relationship is tested by an empty bank account, arguments about the future, and an encounter with a handsome drifter that tempts them to once again redraw the map of their relationship. Will this be the best trip of their lives, or the end of the road?"
+  },
+  {
+    "featured": true,
+    "season": 4,
+    "year": 2019,
+    "imdb": "https://www.imdb.com/title/tt2558816/episodes?season=4",
+    "stream": [
+      { "source": "netflix", "url": "https://www.netflix.com/title/70304246" }
+    ]
   }
 ]
