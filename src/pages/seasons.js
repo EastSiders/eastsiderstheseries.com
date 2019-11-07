@@ -10,7 +10,7 @@ import { Container, Header, List } from "semantic-ui-react"
 const SeasonsPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allSeasonsJson {
+      allSeasonsJson(sort: { fields: season, order: ASC }) {
         nodes {
           id
           season

@@ -20,15 +20,12 @@ import "semantic-ui-css/semantic.min.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteMetadataQuery {
-      site {
-        siteMetadata {
-          title
-          social {
-            name
-            url
-            icon
-          }
+    query {
+      allSocialJson {
+        nodes {
+          name
+          url
+          icon
         }
       }
       heroImages: allFile(
@@ -54,8 +51,7 @@ const Layout = ({ children }) => {
     <>
       <Navbar />
       <Header
-        siteTitle={data.site.siteMetadata.title}
-        social={data.site.siteMetadata.social}
+        social={data.allSocialJson.nodes}
         heroImages={data.heroImages.edges}
       />
       <Container>

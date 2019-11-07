@@ -4,11 +4,26 @@ import Soundtrack from "./soundtrack"
 import Press from "./press"
 import CastList from "./castlist"
 
+const ItemList = ({ name, items }) => (
+  <>
+    {name}:{" "}
+    {items.map(item => {
+      return (
+        <span key={item.source}>
+          <a href={item.url}>{item.source}</a>{" "}
+        </span>
+      )
+    })}
+  </>
+)
+
 const Season = ({
   season,
   year,
   imdb,
   trailer,
+  stream,
+  purchase,
   cast,
   soundtrack,
   press,
@@ -22,6 +37,26 @@ const Season = ({
           <Icon name="imdb" />
         </a>
       </Header>
+      {stream && (
+        <p>
+          <ItemList name="Stream" items={stream} />
+        </p>
+      )}
+      {purchase && (
+        <p>
+          Purchase:
+          <br />
+          {purchase.digital && (
+            <ItemList name="Digital" items={purchase.digital} />
+          )}
+          {purchase.dvd && (
+            <>
+              <br />
+              <ItemList name="DVD" items={purchase.dvd} />
+            </>
+          )}
+        </p>
+      )}
       <p style={{ whiteSpace: "pre-wrap" }}>{synopsis}</p>
       <Embed
         id={trailer.id}

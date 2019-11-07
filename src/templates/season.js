@@ -16,6 +16,20 @@ export const query = graphql`
       }
       year
       synopsis
+      stream {
+        source
+        url
+      }
+      purchase {
+        dvd {
+          source
+          url
+        }
+        digital {
+          source
+          url
+        }
+      }
       cast {
         id
         name

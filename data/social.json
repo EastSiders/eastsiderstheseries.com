@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Facebook",
+    "url": "https://www.facebook.com/EastSidersTheSeries",
+    "icon": "facebook"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://twitter.com/eastsidersTV",
+    "icon": "twitter"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://instagram.com/eastsiderstv/",
+    "icon": "instagram"
+  },
+  {
+    "name": "Tumblr",
+    "url": "https://eastsiderstheseries.tumblr.com/",
+    "icon": "tumblr"
+  },
+  {
+    "name": "Patreon",
+    "url": "https://www.patreon.com/kitwilliamson",
+    "icon": "patreon"
+  }
+]

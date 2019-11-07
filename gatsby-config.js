@@ -4,33 +4,6 @@ module.exports = {
     description: `Chronicalling infidelity and substance abuse of a gay couple living in Silver Lake, Los Angeles.`,
     author: `@aydrian`,
     email: "eastsiderstv@gmail.com",
-    social: [
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/EastSidersTheSeries",
-        icon: "facebook",
-      },
-      {
-        name: "Twitter",
-        url: "https://twitter.com/eastsidersTV",
-        icon: "twitter",
-      },
-      {
-        name: "Instagram",
-        url: "https://instagram.com/eastsiderstv/",
-        icon: "instagram",
-      },
-      {
-        name: "Tumblr",
-        url: "https://eastsiderstheseries.tumblr.com/",
-        icon: "tumblr",
-      },
-      {
-        name: "Patreon",
-        url: "https://www.patreon.com/kitwilliamson",
-        icon: "patreon",
-      },
-    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -7,6 +7,31 @@
       "id": "QLidpRiqbMc",
       "source": "youtube"
     },
+    "stream": [
+      { "source": "netflix", "url": "https://www.netflix.com/title/70304246" }
+    ],
+    "purchase": {
+      "dvd": [
+        {
+          "source": "wolfe",
+          "url": "https://www.wolfevideo.com/products/eastsiders/"
+        },
+        {
+          "source": "amazon",
+          "url": "https://www.amazon.com/EastSiders-Constance-Wu/dp/B00KH5DFXC"
+        }
+      ],
+      "digital": [
+        {
+          "source": "wolfe",
+          "url": "https://wolfeondemand.com/productions/details/799/Eastsiders-The-Movie"
+        },
+        {
+          "source": "amazon",
+          "url": "https://www.amazon.com/EastSiders-Van-Hansis/dp/B00MN60ZDG/"
+        }
+      ]
+    },
     "synopsis": "Written and directed by award winning playwright Kit Williamson, EastSiders is a funny and entertaining peek into the life and friends of a gay couple in Los Angeles’s Silver Lake neighborhood.  When Cal (Kit Williamson) finds out Thom (Van Hansis) has been cheating on him with Jeremy (Matthew McKelligon), their relationship is turned upside down. Will the lies tear them apart or are they just stubborn enough to stay together forever?"
   },
   {
@@ -17,6 +42,9 @@
       "id": "Q1XjIBjY-3E",
       "source": "youtube"
     },
+    "stream": [
+      { "source": "netflix", "url": "https://www.netflix.com/title/70304246" }
+    ],
     "synopsis": "Set against the bohemian backdrop of the Silver Lake neighborhood of Los Angeles, EastSiders Season 2 is a comedic look at the hip millennial population struggling to navigate life, love and making the rent.\n\nEastsiders Season 2 was written and directed by actor, writer and director Kit Williamson (Mad Men), who also stars in the film as Cal, an ambitious young photographer who navigates the complex world of modern gay life with his boyfriend, Thom, played by Van Hansis (As The World Turns)."
   },
   {
@@ -27,6 +55,9 @@
       "id": "q2FgE7G4LAc",
       "source": "youtube"
     },
+    "stream": [
+      { "source": "netflix", "url": "https://www.netflix.com/title/70304246" }
+    ],
     "synopsis": "After a year in New York City, Cal and Thom pack up and head on a cross-country road trip back to Silverlake, CA.\n\nSeason two of the Daytime Emmy® nominated series, “EastSiders,” left Cal and Thom determined to make things work, despite some confusing developments in their newly monogomish relationship. After a challenging year in New York City, the guys hit the road back west to Los Angeles to pick up the pieces of their old life, but nothing can prepare them for the unexpected twists and turns they’ll face on the journey home. As they travel west, their tumultuous relationship is tested by an empty bank account, arguments about the future, and an encounter with a handsome drifter that tempts them to once again redraw the map of their relationship. Will this be the best trip of their lives, or the end of the road?"
   }
 ]

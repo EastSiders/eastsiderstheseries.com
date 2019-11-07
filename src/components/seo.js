@@ -24,7 +24,7 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
-
+  // TODO: Add <meta property="og:image" content="">
   const metaDescription = description || site.siteMetadata.description
 
   return (
