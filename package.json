@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "eastsiders-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Gatsby Site for Eastsiders The Series",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Aydrian Howard <aydrian@gmail.com>",
   "dependencies": {
     "gatsby": "^2.17.10",
     "gatsby-image": "^2.2.30",
@@ -39,9 +39,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Eastsiders/eastsiderstheseries.com"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Eastsiders/eastsiderstheseries.com/issues"
   }
 }
