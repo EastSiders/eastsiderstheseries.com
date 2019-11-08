@@ -53,7 +53,7 @@ const SeasonsPage = () => {
             return (
               <List.Item
                 as={Link}
-                to={`seasons/${season.season}/`}
+                to={`/seasons/${season.season}/`}
                 key={season.id}
               >
                 {`Season ${season.season} (${season.year})`}
