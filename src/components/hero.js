@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from "react"
 import Image from "gatsby-image"
 import styled from "styled-components"
 
@@ -40,7 +40,7 @@ const BgImage = styled(Image)`
   }
 `
 
-class Hero extends React.Component {
+class Hero extends Component {
   render() {
     const { children } = this.props
     return (

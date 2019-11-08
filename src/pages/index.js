@@ -1,34 +1,20 @@
 import React from "react"
 //import { Link } from "gatsby"
-import { Grid, Placeholder } from "semantic-ui-react"
+import { Container, Header } from "semantic-ui-react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Countdown from "../components/countdown"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Grid container>
-      <Grid.Column computer="12">
-        <Grid.Row>
-          <Placeholder>
-            <Placeholder.Image />
-          </Placeholder>
-        </Grid.Row>
-      </Grid.Column>
-      <Grid.Column computer="4">
-        <Grid.Row>
-          <Placeholder>
-            <Placeholder.Image />
-          </Placeholder>
-        </Grid.Row>
-        <Grid.Row>
-          <Placeholder>
-            <Placeholder.Image />
-          </Placeholder>
-        </Grid.Row>
-      </Grid.Column>
-    </Grid>
+    <Container textAlign="center">
+      <Header as="h2">
+        The 4th and Final Season Available to Steam on Netflix December 1.{" "}
+      </Header>
+      <Countdown date="12/01/2019" />
+    </Container>
   </Layout>
 )
 

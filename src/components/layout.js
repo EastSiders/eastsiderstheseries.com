@@ -8,15 +8,16 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+
+import "semantic-ui-css/semantic.min.css"
+import "../fonts/fonts.css"
+
 import { Container } from "semantic-ui-react"
 
 import Navbar from "./navbar"
 import NavbarBottom from "./navbar-bottom"
 import Header from "./header"
 import Footer from "./footer"
-//import "./layout.css"
-import "../fonts/fonts.css"
-import "semantic-ui-css/semantic.min.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
