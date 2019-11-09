@@ -26,7 +26,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Header as="h2" textAlign="center">
-      The 4th and Final Season Available to Steam on Netflix December 1.
+      Watch Season 4 on Netflix December 1
     </Header>
     <Container textAlign="center">
       <Countdown date="12/01/2019" />
