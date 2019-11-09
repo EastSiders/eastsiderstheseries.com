@@ -18,12 +18,6 @@
     "url": "https://www.dragqueenmerch.com/collections/eastsiders/products/eastsiders-lifes-a-gig-tank-top"
   },
   {
-    "name": "\"Life's a Gig\" Mug",
-    "price": 19.99,
-    "thumbnail": "https://cdn.shopify.com/s/files/1/1450/6394/products/pro-previews974952261_large.jpeg?v=1572179466",
-    "url": "https://www.dragqueenmerch.com/collections/eastsiders/products/eastsiders-lifes-a-gig-mug"
-  },
-  {
     "name": "\"Black & White\" T-shirt",
     "price": 28,
     "thumbnail": "https://cdn.shopify.com/s/files/1/1450/6394/products/191022-170118746fe48182-0_large.jpeg?v=1572179433",
@@ -40,6 +34,12 @@
     "price": 28,
     "thumbnail": "https://cdn.shopify.com/s/files/1/1450/6394/products/191022-19194041c0597363-5_large.jpeg?v=1572179452",
     "url": "https://www.dragqueenmerch.com/collections/eastsiders/products/eastsiders-black-white-tank-top"
+  },
+  {
+    "name": "\"Life's a Gig\" Mug",
+    "price": 19.99,
+    "thumbnail": "https://cdn.shopify.com/s/files/1/1450/6394/products/pro-previews974952261_large.jpeg?v=1572179466",
+    "url": "https://www.dragqueenmerch.com/collections/eastsiders/products/eastsiders-lifes-a-gig-mug"
   },
   {
     "name": "\"Black & White\" Mug",
