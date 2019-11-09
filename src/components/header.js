@@ -1,30 +1,22 @@
-import React, { useState } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import Social from "./social"
 import Logo from "./logo"
 import Hero from "./hero"
-import { Responsive } from "semantic-ui-react"
 
 const Header = ({ social, heroImages }) => {
-  const [width, setWidth] = useState()
   const randomImage = () => {
     const randImage = heroImages[Math.floor(Math.random() * heroImages.length)]
     return randImage.node.childImageSharp.fluid
   }
 
   return (
-    <Responsive
-      as={Hero}
-      height={width >= Responsive.onlyTablet.minWidth ? "60vh" : "30vh"}
-      fluid={randomImage()}
-      fireOnMount
-      onUpdate={(e, { width }) => setWidth(width)}
-    >
+    <Hero height={"calc(100vw * (1/3))"} fluid={randomImage()}>
       <h1 style={{ fontSize: "10vw" }}>
         <Logo style={{ textShadow: "1px 1px 2px grey" }} />
       </h1>
       <Social social={social} />
-    </Responsive>
+    </Hero>
   )
 }
 
