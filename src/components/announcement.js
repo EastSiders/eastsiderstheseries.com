@@ -6,6 +6,7 @@ const NetflixRed = "#e50914"
 
 const StyledHeader = styled.h1`
   margin: 0;
+  padding: 0.5rem;
   color: #fff !important;
   background-color: #000;
   text-align: center;
@@ -29,7 +30,16 @@ const NetflixLogo = styled.span`
 const Announcement = () => (
   <section>
     <StyledHeader>
-      Watch Season 4 on <NetflixLogo>Netflix</NetflixLogo> December 1
+      Watch Season 4 on{" "}
+      <img
+        src="/images/netflix-logo.svg"
+        style={{
+          display: "inline-block",
+          height: "2rem",
+          verticalAlign: "middle",
+        }}
+      />{" "}
+      December 1
     </StyledHeader>
     <CountdownWrapper>
       <Countdown date="12/01/2019" />
