@@ -31,7 +31,7 @@ const MerchPage = () => {
   return (
     <Layout>
       <SEO title="Merch" />
-      <h1>Buy Merch</h1>
+      <h1>The Merch Table</h1>
       <p>
         Merch available from{" "}
         <a href="https://www.dragqueenmerch.com/collections/eastsiders">
