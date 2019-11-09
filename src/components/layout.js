@@ -17,6 +17,7 @@ import { Container } from "semantic-ui-react"
 import Navbar from "./navbar"
 import NavbarBottom from "./navbar-bottom"
 import Header from "./header"
+import Announcement from "./announcement"
 import Footer from "./footer"
 
 const Layout = ({ children }) => {
@@ -55,6 +56,7 @@ const Layout = ({ children }) => {
         social={data.allSocialJson.nodes}
         heroImages={data.heroImages.edges}
       />
+      <Announcement />
       <Container>
         {children}
         <Footer />

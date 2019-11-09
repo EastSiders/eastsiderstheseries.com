@@ -1,26 +1,20 @@
 import React, { Component /*, useState, useEffect*/ } from "react"
 import PropTypes from "prop-types"
+import { Statistic } from "semantic-ui-react"
 import styled from "styled-components"
 
-const Container = styled.div`
-  margin: 10px auto;
-  padding-bottom: 20px;
+const Wrapper = styled.div`
+color: #fff !important;
+display: grid
+grid-gap: 2rem;
+grid-auto-columns: min-content;
+grid-auto-flow: column;
+
+.ui.statistic {
+  margin: 0 !important;
+}
 `
 
-const Column = styled.span`
-  display: inline-block;
-`
-
-const Element = styled.span`
-  display: inline-block;
-  margin: 0 20px;
-  display: flex;
-  flex-direction: column;
-
-  strong {
-    font-size: 30px;
-  }
-`
 /*
 const Countdown = ({ date }) => {
   const [countDown, setCountDown] = useState({
@@ -200,35 +194,32 @@ class Countdown extends Component {
     const countDown = this.state
 
     return (
-      <Container>
-        <Column>
-          <Element>
-            <strong>{this.addLeadingZeros(countDown.days)}</strong>
-            <span>{countDown.days === 1 ? "Day" : "Days"}</span>
-          </Element>
-        </Column>
-
-        <Column>
-          <Element>
-            <strong>{this.addLeadingZeros(countDown.hours)}</strong>
-            <span>Hours</span>
-          </Element>
-        </Column>
-
-        <Column>
-          <Element>
-            <strong>{this.addLeadingZeros(countDown.min)}</strong>
-            <span>Min</span>
-          </Element>
-        </Column>
-
-        <Column>
-          <Element>
-            <strong>{this.addLeadingZeros(countDown.sec)}</strong>
-            <span>Sec</span>
-          </Element>
-        </Column>
-      </Container>
+      <Wrapper>
+        <Statistic
+          inverted
+          label={countDown.days === 1 ? "Day" : "Days"}
+          value={this.addLeadingZeros(countDown.days)}
+          size="tiny"
+        />
+        <Statistic
+          inverted
+          label={countDown.hours === 1 ? "Hour" : "Hours"}
+          value={this.addLeadingZeros(countDown.hours)}
+          size="tiny"
+        />
+        <Statistic
+          inverted
+          label={countDown.min === 1 ? "Minute" : "Minutes"}
+          value={this.addLeadingZeros(countDown.min)}
+          size="tiny"
+        />
+        <Statistic
+          inverted
+          label={countDown.sec === 1 ? "Second" : "Seconds"}
+          value={this.addLeadingZeros(countDown.sec)}
+          size="tiny"
+        />
+      </Wrapper>
     )
   }
 }
