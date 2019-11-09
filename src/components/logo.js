@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 
 const baseStyle = {
   fontFamily: "'ITC Stone Sans Std Bold 24796'",
+  color: "#fff",
   textTransform: "uppercase",
 }
 

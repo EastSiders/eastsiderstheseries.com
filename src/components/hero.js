@@ -19,7 +19,7 @@ const Overlay = styled.div`
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   text-align: center;
 `
 
