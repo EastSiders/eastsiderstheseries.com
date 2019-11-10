@@ -35,6 +35,11 @@ export const query = graphql`
         name
         character
         imdb
+        social {
+          name
+          url
+          icon
+        }
       }
       soundtrack {
         id
