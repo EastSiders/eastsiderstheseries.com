@@ -3,7 +3,7 @@ import { Link /*, withPrefix*/ } from "gatsby"
 import { Container, Menu, Responsive, Visibility } from "semantic-ui-react"
 import Logo from "./logo"
 
-import "./navbar.css"
+//import "./navbar.css"
 
 const menuStyle = {
   border: "none",

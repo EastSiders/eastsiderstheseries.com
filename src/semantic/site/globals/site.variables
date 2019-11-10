@@ -1,3 +1,15 @@
 /*******************************
      User Global Variables
 *******************************/
+
+@brandFont : 'ITC Stone Sans Std Bold 24796';
+@headerFont : @brandFont, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@esBlue1: #156592;
+@esBlue2: #4372d0;
+
+@primaryColor        : @esBlue1;

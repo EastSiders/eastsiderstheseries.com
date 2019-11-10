@@ -9,8 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import "semantic-ui-less/semantic.less"
 import "../fonts/fonts.css"
+import "semantic-ui-less/semantic.less"
 
 import { Container } from "semantic-ui-react"
 

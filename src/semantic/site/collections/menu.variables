@@ -1,3 +1,9 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+/* Menu */
+@fontFamily: @brandFont;
+
+/* Menu Item */
+@itemTextTransform: uppercase;
