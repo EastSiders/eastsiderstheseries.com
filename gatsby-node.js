@@ -3,8 +3,8 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+const path = require("path")
 
-// You can delete this file if you're not using it
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
   const typeDefs = `
@@ -43,5 +43,18 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
         seasonId: season.id,
       },
     })
+  })
+}
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        "../../theme.config$": path.join(
+          __dirname,
+          "src/semantic/theme.config"
+        ),
+      },
+    },
   })
 }

@@ -62,8 +62,7 @@ const Season = ({
         <Embed
           id={trailer.id}
           source={trailer.source}
-          autoplay={false}
-          defaultActive
+          placeholder={`/images/season-${season}-cover.png`}
         />
       )}
       {cast && (
