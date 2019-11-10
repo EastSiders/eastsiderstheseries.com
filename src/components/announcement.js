@@ -23,9 +23,9 @@ const CountdownWrapper = styled.div`
   background-color: ${NetflixRed};
 `
 
-const NetflixLogo = styled.span`
+/*const NetflixLogo = styled.span`
   color: ${NetflixRed};
-`
+`*/
 
 const Announcement = () => (
   <section>
@@ -38,6 +38,7 @@ const Announcement = () => (
           height: "2rem",
           verticalAlign: "middle",
         }}
+        alt="Netflix"
       />{" "}
       December 1
     </StyledHeader>

@@ -4,15 +4,15 @@ import { Statistic } from "semantic-ui-react"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
-color: #fff !important;
-display: grid
-grid-gap: 2rem;
-grid-auto-columns: min-content;
-grid-auto-flow: column;
+  color: #fff !important;
+  display: grid;
+  grid-gap: 2rem;
+  grid-auto-columns: min-content;
+  grid-auto-flow: column;
 
-.ui.statistic {
-  margin: 0 !important;
-}
+  .ui.statistic {
+    margin: 0 !important;
+  }
 `
 
 /*

@@ -1,6 +1,5 @@
 import React, { Component } from "react"
-//import { Link, withPrefix } from "gatsby"
-import { Link } from "gatsby"
+import { Link /*, withPrefix*/ } from "gatsby"
 import { Container, Menu, Responsive, Visibility } from "semantic-ui-react"
 import Logo from "./logo"
 

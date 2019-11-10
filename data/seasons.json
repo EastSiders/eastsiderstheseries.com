@@ -65,8 +65,13 @@
     "season": 4,
     "year": 2019,
     "imdb": "https://www.imdb.com/title/tt2558816/episodes?season=4",
+    "trailer": {
+      "id": "q2FgE7G4LAc",
+      "source": "youtube"
+    },
     "stream": [
       { "source": "netflix", "url": "https://www.netflix.com/title/70304246" }
-    ]
+    ],
+    "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit sed vulputate mi sit amet mauris commodo quis. At tempor commodo ullamcorper a lacus vestibulum sed. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Eget felis eget nunc lobortis mattis aliquam. Auctor urna nunc id cursus metus aliquam eleifend mi in. Urna cursus eget nunc scelerisque viverra mauris in aliquam. Enim nec dui nunc mattis enim. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Massa eget egestas purus viverra accumsan in. Molestie nunc non blandit massa enim nec dui. Consequat id porta nibh venenatis cras. Arcu non odio euismod lacinia. Nisl vel pretium lectus quam id leo. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer."
   }
 ]
