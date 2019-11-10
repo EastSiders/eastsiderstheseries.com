@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Embed, List } from "semantic-ui-react"
+import { Embed } from "semantic-ui-react"
 
 const Grid = styled.section`
   display: grid;

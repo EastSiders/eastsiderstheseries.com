@@ -1,24 +1,11 @@
 import React from "react"
-import { Header, Embed, Icon } from "semantic-ui-react"
+import { Header, Icon } from "semantic-ui-react"
 import styled from "styled-components"
 
 import Details from "./season-details"
 import Soundtrack from "./soundtrack"
 import Press from "./press"
 import CastList from "./castlist"
-
-const ItemList = ({ name, items }) => (
-  <>
-    {name}:{" "}
-    {items.map(item => {
-      return (
-        <span key={item.source}>
-          <a href={item.url}>{item.source}</a>{" "}
-        </span>
-      )
-    })}
-  </>
-)
 
 const Section = styled.section`
   margin-top: 1rem;
