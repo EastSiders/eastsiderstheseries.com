@@ -5,7 +5,7 @@ import Logo from "./logo"
 const StyledFooter = styled.footer`
   @media (max-width: 700px) {
     --safe-area-inset-bottom: env(safe-area-inset-bottom);
-    margin-bottom: calc(60px + var(--safe-area-inset-bottom));
+    margin-bottom: calc(100px + var(--safe-area-inset-bottom));
   }
 `
 

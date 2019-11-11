@@ -27,7 +27,6 @@ const MorePage = () => {
   return (
     <Layout>
       <SEO title="More" />
-      <h1>More Stuff</h1>
       <Section>
         <Header as="h2">About</Header>
         <Image
