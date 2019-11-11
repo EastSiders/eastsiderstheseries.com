@@ -22,9 +22,8 @@ const ContactForm = () => {
 
   const handleSubmit = async e => {
     e.preventDefault()
-    setState({ isLoading: true })
+    setState({ isLoading: true, isSuccess: false })
     const form = e.target
-    console.log(form)
     try {
       await fetch("/", {
         method: "POST",

@@ -1,14 +1,21 @@
 import React from "react"
+import styled from "styled-components"
 import Logo from "./logo"
 
+const StyledFooter = styled.footer`
+  @media (max-width: 700px) {
+    margin-bottom: 60px;
+  }
+`
+
 const Footer = () => (
-  <footer>
+  <StyledFooter>
     <br />
     <Logo oneColor style={{ color: "#000" }} /> © {new Date().getFullYear()},
     Built with
     {` `}
     <a href="https://www.gatsbyjs.org">Gatsby</a>
-  </footer>
+  </StyledFooter>
 )
 
 export default Footer

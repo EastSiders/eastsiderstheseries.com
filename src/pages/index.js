@@ -66,7 +66,6 @@ const IndexPage = () => {
     }
   `)
   const { featuredSeason } = data
-  console.log(featuredSeason)
   const randomMerch = () => {
     const merch = data.allMerchJson.nodes
     return merch[Math.floor(Math.random() * merch.length)]
