@@ -28,25 +28,26 @@
     "appearsIn": [1, 2, 3, 4],
     "imdb": "https://www.imdb.com/name/nm2082499/",
     "social": [
-      
-      { "type": "twitter", "url": "https://twitter.com/VanHansis1
-" },
-      { "type": "instagram", "url": "https://www.instagram.com/van.hansis/
-" }
+      { "type": "twitter", "url": "https://twitter.com/VanHansis1" },
+      { "type": "instagram", "url": "https://www.instagram.com/van.hansis/" }
     ]
   },
   {
     "name": "Matthew McKelligon",
     "character": "Jeremy",
     "appearsIn": [1, 2, 3, 4],
-    "imdb": "https://www.imdb.com/name/nm4307643/"
- "social": [
+    "imdb": "https://www.imdb.com/name/nm4307643/",
+    "social": [
       { "type": "website", "url": "https://www.matthewmckelligon.com/" },
       { "type": "twitter", "url": "https://twitter.com/matswaltin" },
-      { "type": "instagram", "url": "https://www.instagram.com/matthewmckelligon/" },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/matthewmckelligon/"
+      },
       {
         "type": "facebook",
-        "url": "https://www.facebook.com/MatthewMcKelligon/"},
+        "url": "https://www.facebook.com/MatthewMcKelligon/"
+      },
       {
         "type": "youtube",
         "url": "https://www.youtube.com/user/matswaltin"
@@ -57,24 +58,22 @@
     "name": "John Halbach",
     "character": "Ian",
     "appearsIn": [1, 2, 3, 4],
-    "imdb": "https://www.imdb.com/name/nm3982128/"
-"social": [
+    "imdb": "https://www.imdb.com/name/nm3982128/",
+    "social": [
       { "type": "twitter", "url": "https://twitter.com/Johnhalbach" },
-      { "type": "instagram", "url": "https://www.instagram.com/johnhalbach/" },
+      { "type": "instagram", "url": "https://www.instagram.com/johnhalbach/" }
     ]
   },
   {
     "name": "Stephen Guarino",
     "character": "Quincy",
     "appearsIn": [1, 2, 3, 4],
-    "imdb": "https://www.imdb.com/name/nm0345399/"
-  },
-"social": [
+    "imdb": "https://www.imdb.com/name/nm0345399/",
+    "social": [
       { "type": "twitter", "url": "https://twitter.com/IAMStephenG" },
-      { "type": "instagram", "url": "https://www.instagram.com/iamstepheng/" },
-      
+      { "type": "instagram", "url": "https://www.instagram.com/iamstepheng/" }
     ]
-},
+  },
 
   {
     "name": "Willam Belli",
