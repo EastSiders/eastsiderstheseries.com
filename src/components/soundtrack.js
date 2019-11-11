@@ -31,7 +31,7 @@ const SongRow = ({ song }) => (
 
 const Soundtrack = ({ songs }) => {
   return (
-    <Table unstackable basic="very">
+    <Table unstackable basic="very" compact="very">
       <Table.Body>
         {songs.map(song => {
           return <SongRow song={song} key={song.id} />

@@ -1,27 +1,27 @@
 import React from "react"
-import { Item } from "semantic-ui-react"
+import { Table } from "semantic-ui-react"
 import Social from "./social"
 
 const CastList = ({ cast }) => (
-  <Item.Group>
-    {cast.map(({ id, imdb, name, character, social }) => {
-      return (
-        <Item key={id}>
-          <Item.Content>
-            <Item.Header as="a" href={imdb}>
-              {name}
-            </Item.Header>
-            <Item.Meta>{character}</Item.Meta>
+  <Table basic="very" compact="very">
+    <Table.Body>
+      {cast.map(({ id, imdb, name, character, social }) => {
+        return (
+          <Table.Row key={id}>
+            <Table.Cell>{character}</Table.Cell>
+            <Table.Cell>
+              <a href={imdb}>{name}</a>
+            </Table.Cell>
             {social && (
-              <Item.Description>
+              <Table.Cell>
                 <Social social={social} color="blue" size="mini" />
-              </Item.Description>
+              </Table.Cell>
             )}
-          </Item.Content>
-        </Item>
-      )
-    })}
-  </Item.Group>
+          </Table.Row>
+        )
+      })}
+    </Table.Body>
+  </Table>
 )
 
 export default CastList
