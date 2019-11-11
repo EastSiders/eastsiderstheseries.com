@@ -5,6 +5,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MerchCard from "../components/merchCard"
+import Patreon from "../components/patreon"
 import { Header, Embed } from "semantic-ui-react"
 
 const Wrapper = styled.div`
@@ -92,12 +93,7 @@ const IndexPage = () => {
         </Side1>
         <Side2>
           <Header>Patreon</Header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet
-            nisl suscipit adipiscing bibendum. Faucibus pulvinar elementum
-            integer enim neque volutpat ac.
-          </p>
+          <Patreon />
         </Side2>
       </Wrapper>
     </Layout>
