@@ -28,8 +28,8 @@
     "appearsIn": [1, 2, 3, 4],
     "imdb": "https://www.imdb.com/name/nm2082499/",
     "social": [
-      { "type": "twitter", "url": "https://twitter.com/VanHansis1" },
-      { "type": "instagram", "url": "https://www.instagram.com/van.hansis/" }
+      { "name": "twitter", "url": "https://twitter.com/VanHansis1" },
+      { "name": "instagram", "url": "https://www.instagram.com/van.hansis/" }
     ]
   },
   {
@@ -38,18 +38,22 @@
     "appearsIn": [1, 2, 3, 4],
     "imdb": "https://www.imdb.com/name/nm4307643/",
     "social": [
-      { "type": "website", "url": "https://www.matthewmckelligon.com/" },
-      { "type": "twitter", "url": "https://twitter.com/matswaltin" },
       {
-        "type": "instagram",
+        "name": "website",
+        "url": "https://www.matthewmckelligon.com/",
+        "icon": "globe"
+      },
+      { "name": "twitter", "url": "https://twitter.com/matswaltin" },
+      {
+        "name": "instagram",
         "url": "https://www.instagram.com/matthewmckelligon/"
       },
       {
-        "type": "facebook",
+        "name": "facebook",
         "url": "https://www.facebook.com/MatthewMcKelligon/"
       },
       {
-        "type": "youtube",
+        "name": "youtube",
         "url": "https://www.youtube.com/user/matswaltin"
       }
     ]
@@ -60,8 +64,8 @@
     "appearsIn": [1, 2, 3, 4],
     "imdb": "https://www.imdb.com/name/nm3982128/",
     "social": [
-      { "type": "twitter", "url": "https://twitter.com/Johnhalbach" },
-      { "type": "instagram", "url": "https://www.instagram.com/johnhalbach/" }
+      { "name": "twitter", "url": "https://twitter.com/Johnhalbach" },
+      { "name": "instagram", "url": "https://www.instagram.com/johnhalbach/" }
     ]
   },
   {
@@ -70,8 +74,8 @@
     "appearsIn": [1, 2, 3, 4],
     "imdb": "https://www.imdb.com/name/nm0345399/",
     "social": [
-      { "type": "twitter", "url": "https://twitter.com/IAMStephenG" },
-      { "type": "instagram", "url": "https://www.instagram.com/iamstepheng/" }
+      { "name": "twitter", "url": "https://twitter.com/IAMStephenG" },
+      { "name": "instagram", "url": "https://www.instagram.com/iamstepheng/" }
     ]
   },
 

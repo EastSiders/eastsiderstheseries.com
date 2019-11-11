@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { List, Icon } from "semantic-ui-react"
 
-const Social = ({ social, color = "", size = "" }) => {
+const Social = ({ social, color, size }) => {
   return (
     <List horizontal inverted size={size}>
       {social.map(({ name, url, icon }) => {
