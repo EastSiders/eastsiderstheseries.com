@@ -103,4 +103,21 @@
     ]
   },
   
+  {
+    "name": "Constance Wu",
+    "character": "Kathy",
+    "appearsIn": [1, 2, 3],
+    "imdb": "https://www.imdb.com/name/nm2090422/",
+    "social": [
+      
+      { "name": "twitter", "url": "https://twitter.com/ConstanceWu" },
+      { "name": "instagram", "url": "https://www.instagram.com/constancewu/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/ConstanceWu/" 
+      },
+      
+    ]
+    
+  },
 ]
