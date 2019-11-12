@@ -85,7 +85,7 @@
     "appearsIn": [2, 3, 4],
     "imdb": "https://www.imdb.com/name/nm1316418/",
     "social": [
-      { 
+      {
         "name": "website",
         "url": "https://www.willambelli.com/",
         "icon": "globe"
@@ -94,30 +94,26 @@
       { "name": "instagram", "url": "https://www.instagram.com/willam/" },
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/willam/" 
+        "url": "https://www.facebook.com/willam/"
       },
       {
         "name": "youtube",
-        "url": "https://https://www.youtube.com/user/noextrai" 
+        "url": "https://https://www.youtube.com/user/noextrai"
       }
     ]
   },
-  
   {
     "name": "Constance Wu",
     "character": "Kathy",
     "appearsIn": [1, 2, 3],
     "imdb": "https://www.imdb.com/name/nm2090422/",
     "social": [
-      
       { "name": "twitter", "url": "https://twitter.com/ConstanceWu" },
       { "name": "instagram", "url": "https://www.instagram.com/constancewu/" },
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/ConstanceWu/" 
-      },
-      
+        "url": "https://www.facebook.com/ConstanceWu/"
+      }
     ]
-    
-  },
+  }
 ]
