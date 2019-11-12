@@ -83,6 +83,24 @@
     "name": "Willam Belli",
     "character": "Douglas",
     "appearsIn": [2, 3, 4],
-    "imdb": "https://www.imdb.com/name/nm1316418/"
-  }
+    "imdb": "https://www.imdb.com/name/nm1316418/",
+    "social": [
+      { 
+        "name": "website",
+        "url": "https://www.willambelli.com/",
+        "icon": "globe"
+      },
+      { "name": "twitter", "url": "https://twitter.com/willam" },
+      { "name": "instagram", "url": "https://www.instagram.com/willam/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/willam/" 
+      },
+      {
+        "name": "youtube",
+        "url": "https://https://www.youtube.com/user/noextrai" 
+      }
+    ]
+  },
+  
 ]
