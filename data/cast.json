@@ -18,7 +18,7 @@
       },
       {
         "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCTOLo78WHiOP3LdAe9IauwQ"
+        "url": "www.youtube.com/channel/UCTOLo78WHiOP3LdAe9IauwQ"
       }
     ]
   },
@@ -52,10 +52,7 @@
         "name": "facebook",
         "url": "https://www.facebook.com/MatthewMcKelligon/"
       },
-      {
-        "name": "youtube",
-        "url": "https://www.youtube.com/user/matswaltin"
-      }
+      { "name": "youtube", "url": "https://www.youtube.com/user/matswaltin" }
     ]
   },
   {
@@ -78,9 +75,8 @@
       { "name": "instagram", "url": "https://www.instagram.com/iamstepheng/" }
     ]
   },
-
   {
-    "name": "Willam Belli",
+    "name": "William Belli",
     "character": "Douglas",
     "appearsIn": [2, 3, 4],
     "imdb": "https://www.imdb.com/name/nm1316418/",
@@ -92,14 +88,8 @@
       },
       { "name": "twitter", "url": "https://twitter.com/willam" },
       { "name": "instagram", "url": "https://www.instagram.com/willam/" },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/willam/"
-      },
-      {
-        "name": "youtube",
-        "url": "https://https://www.youtube.com/user/noextrai"
-      }
+      { "name": "facebook", "url": "https://www.facebook.com/willam/" },
+      { "name": "youtube", "url": "https://www.youtube.com/user/noextrai" }
     ]
   },
   {
@@ -110,10 +100,375 @@
     "social": [
       { "name": "twitter", "url": "https://twitter.com/ConstanceWu" },
       { "name": "instagram", "url": "https://www.instagram.com/constancewu/" },
+      { "name": "facebook", "url": "https://www.facebook.com/ConstanceWu/" }
+    ]
+  },
+  {
+    "name": "Brea Grant",
+    "character": "Bri",
+    "appearsIn": [1, 2, 4],
+    "imdb": "https://www.imdb.com/name/nm2647420/",
+    "social": [
+      {
+        "name": "website",
+        "url": "http://www.breagrant.com/",
+        "icon": "globe"
+      },
+      { "name": "twitter", "url": "https://twitter.com/breagrant" },
+      { "name": "instagram", "url": "https://www.instagram.com/breagrant/" },
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/ConstanceWu/"
+        "url": "https://www.facebook.com/Brea-Grant-112208932222876/"
+      },
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UC-51l6-wwZ_JdnuPxBhZkWw"
       }
+    ]
+  },
+  {
+    "name": "Brianna Brown",
+    "character": "Hillary",
+    "appearsIn": [2, 3, 4],
+    "imdb": "https://www.imdb.com/name/nm0113158/",
+    "social": [
+      {
+        "name": "website",
+        "url": "https://www.briannabrownkeen.com/",
+        "icon": "globe"
+      },
+      { "name": "twitter", "url": "https://twitter.com/BrownBrianna" },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/briannabrownkeen/"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/BriannaBrownOfficial/"
+      },
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/user/MsBriannabrown"
+      }
+    ]
+  },
+  {
+    "name": "Leith Burke",
+    "character": "Derrick",
+    "appearsIn": [2, 4],
+    "imdb": "https://www.imdb.com/name/nm0121772/",
+    "social": [
+      {
+        "name": "website",
+        "url": "http://www.leithburke.com/",
+        "icon": "globe"
+      },
+      { "name": "twitter", "url": "https://twitter.com/LeithBurke" },
+      { "name": "instagram", "url": "https://www.instagram.com/beleith/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/Leith-Burke-338543039491067/"
+      },
+      { "name": "youtube", "url": "https://www.youtube.com/user/TheBeleith" }
+    ]
+  },
+  {
+    "name": "Traci Lords",
+    "character": "Val",
+    "appearsIn": [1, 2, 3, 4],
+    "imdb": "https://www.imdb.com/name/nm0000183/",
+    "social": [
+      { "name": "website", "url": "https://tracilords.com/", "icon": "globe" },
+      { "name": "twitter", "url": "https://twitter.com/thetracilords" },
+      { "name": "instagram", "url": "https://www.instagram.com/tracilords/" },
+      { "name": "facebook", "url": "https://www.facebook.com/tracilords/" }
+    ]
+  },
+  {
+    "name": "Leslie Andrews",
+    "character": "Jill",
+    "appearsIn": [1, 2, 3, 4],
+    "imdb": "https://www.imdb.com/name/nm1988488/",
+    "social": [
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/leslieisradical/"
+      }
+    ]
+  },
+  {
+    "name": "Satya Bhaba",
+    "character": "Jared",
+    "appearsIn": [2, 4],
+    "imdb": "https://www.imdb.com/name/nm1440863/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/satyabhabha" },
+      { "name": "instagram", "url": "https://www.instagram.com/satyasees/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/Satya-Bhabha-459096207962260/"
+      }
+    ]
+  },
+  {
+    "name": "Adam Bucci",
+    "character": "Trevor",
+    "appearsIn": [2, 4],
+    "imdb": "https://www.imdb.com/name/nm4120586/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/AdamBucci5" },
+      { "name": "instagram", "url": "https://www.instagram.com/adambucci5/" },
+      { "name": "facebook", "url": "https://www.facebook.com/adambucciactor/" }
+    ]
+  },
+  {
+    "name": "Jai Rodriguez",
+    "character": "Jimmy",
+    "appearsIn": [2, 4],
+    "imdb": "https://www.imdb.com/name/nm11772",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/jairodriguez" },
+      { "name": "instagram", "url": "https://www.instagram.com/jairodriguez/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/JaiRodriguezfanpage/"
+      }
+    ]
+  },
+  {
+    "name": "Max Emerson",
+    "character": "Cheyenne",
+    "appearsIn": [2, 4],
+    "imdb": "https://www.imdb.com/name/nm2648791/",
+    "social": [
+      { "name": "website", "url": "http://maxismsmedia.com/", "icon": "globe" },
+      { "name": "twitter", "url": "https://twitter.com/TheMaxisms" },
+      { "name": "instagram", "url": "https://www.instagram.com/maxisms/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/MaxViciousEmerson/"
+      },
+      { "name": "youtube", "url": "https://www.youtube.com/user/TheMaxVicious" }
+    ]
+  },
+  {
+    "name": "Vera Miao",
+    "character": "Vera",
+    "appearsIn": [1, 2],
+    "imdb": "https://www.imdb.com/name/nm3399858/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/vivamiao" },
+      { "name": "instagram", "url": "https://www.instagram.com/veramiao/" },
+      { "name": "youtube", "url": "https://www.youtube.com/user/veramiao" }
+    ]
+  },
+  {
+    "name": "Sean Maher",
+    "character": "Paul",
+    "appearsIn": [1],
+    "imdb": "https://www.imdb.com/name/nm0536883/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/Sean_M_Maher" },
+      { "name": "instagram", "url": "https://www.instagram.com/sean_m_maher/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/Sean-Maher-193242567385123/"
+      }
+    ]
+  },
+  {
+    "name": "Jolly Abraham",
+    "character": "Lindy",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm2049306/",
+    "social": []
+  },
+  {
+    "name": "Scout Burke",
+    "character": "Sam",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm10913415/",
+    "social": []
+  },
+  {
+    "name": "Jake Choi",
+    "character": "Clifford",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm4007865/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/TheJakeChoi" },
+      { "name": "instagram", "url": "https://www.instagram.com/thejakechoi/" },
+      { "name": "facebook", "url": "https://www.facebook.com/TheJakeChoi/" }
+    ]
+  },
+  {
+    "name": "Tom Lenk",
+    "character": "Collin",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm0501937/",
+    "social": [
+      { "name": "website", "url": "http://tomlenk.com/", "icon": "globe" },
+      { "name": "twitter", "url": "https://twitter.com/tomlenk" },
+      { "name": "instagram", "url": "https://www.instagram.com/tommylenk/" },
+      { "name": "facebook", "url": "https://www.facebook.com/TheTrashcast/" },
+      { "name": "youtube", "url": "https://www.youtube.com/user/tommylenk" }
+    ]
+  },
+  {
+    "name": "Matthew Wilkas",
+    "character": "Kevin",
+    "appearsIn": [2, 3],
+    "imdb": "https://www.imdb.com/name/nm3151834/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/MattWilkas" },
+      { "name": "instagram", "url": "https://www.instagram.com/mwilkas/" },
+      { "name": "facebook", "url": "https://www.facebook.com/matthew.wilkas" }
+    ]
+  },
+  {
+    "name": "Tuc Watkins",
+    "character": "Patrick",
+    "appearsIn": [3],
+    "imdb": "https://www.imdb.com/name/nm0914424/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/tucwatkins" },
+      { "name": "instagram", "url": "https://www.instagram.com/tucwatkins/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/Tuc-Watkins-53924027970/"
+      }
+    ]
+  },
+  {
+    "name": "Wilson Cruz",
+    "character": "Jerry",
+    "appearsIn": [3],
+    "imdb": "https://www.imdb.com/name/nm0190497/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/wcruz73" },
+      { "name": "instagram", "url": "https://www.instagram.com/wcruz73/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/Wilson-Cruz-107359866034012/"
+      }
+    ]
+  },
+  {
+    "name": "Lin Shaye",
+    "character": "Diane",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm0005417/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/linshaye" },
+      { "name": "instagram", "url": "https://www.instagram.com/mslinshaye/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/officiallinshayeUS/"
+      }
+    ]
+  },
+  {
+    "name": "Daniel Newman",
+    "character": "Chase",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm1649096/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/DanielNewman" },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/danielnewman_/"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/realDanielNewman/"
+      },
+      { "name": "youtube", "url": "https://www.youtube.com/user/Reels2012" }
+    ]
+  },
+  {
+    "name": "Jonathan Lisecki",
+    "character": "Francis",
+    "appearsIn": [2, 3],
+    "imdb": "https://www.imdb.com/name/nm1550373/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/jonnynyc" },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/colbydoesamerican/"
+      }
+    ]
+  },
+  {
+    "name": "Colby Keller",
+    "character": "Arlen",
+    "appearsIn": [3],
+    "imdb": "https://www.imdb.com/name/nm2110482/",
+    "social": [{ "name": "twitter", "url": "https://twitter.com/colbykeller" }]
+  },
+  {
+    "name": "Hailie Sahar",
+    "character": "Marta",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm8417376/",
+    "social": [
+      {
+        "name": "website",
+        "url": "https://www.hailiesahar.com/",
+        "icon": "globe"
+      },
+      { "name": "twitter", "url": "https://twitter.com/213Sahar" },
+      { "name": "instagram", "url": "https://www.instagram.com/hailiesahar/" },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/SaharProductions/"
+      }
+    ]
+  },
+  {
+    "name": "Karl Westerberg",
+    "character": "Barbie",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm4249528/",
+    "social": [
+      {
+        "name": "website",
+        "url": "https://www.manilaluzon.com/",
+        "icon": "globe"
+      },
+      { "name": "twitter", "url": "https://twitter.com/manilaluzon" },
+      { "name": "instagram", "url": "https://www.instagram.com/manilaluzon/" },
+      { "name": "facebook", "url": "https://www.facebook.com/manilaluzon" },
+      { "name": "youtube", "url": "https://www.youtube.com/user/manilaluzon" }
+    ]
+  },
+  {
+    "name": "Bryan Batt",
+    "character": "Richard",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm0061262/",
+    "social": [
+      { "name": "twitter", "url": "https://twitter.com/Bryan_Batt" },
+      { "name": "instagram", "url": "https://www.instagram.com/bryan_batt/" },
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UC3iwMuz5tt8EnwNH7RayR1Q"
+      }
+    ]
+  },
+  {
+    "name": "Brian McCook",
+    "character": "Summer Clearance",
+    "appearsIn": [4],
+    "imdb": "https://www.imdb.com/name/nm7200459/",
+    "social": [
+      {
+        "name": "website",
+        "url": "https://www.welovekatya.com/",
+        "icon": "globe"
+      },
+      { "name": "twitter", "url": "https://twitter.com/katya_zamo" },
+      { "name": "instagram", "url": "https://www.instagram.com/katya_zamo/" },
+      { "name": "facebook", "url": "https://www.facebook.com/welovekatya/" }
     ]
   }
 ]
