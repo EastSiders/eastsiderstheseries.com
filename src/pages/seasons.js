@@ -6,7 +6,7 @@ import Image from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Container, Header, List } from "semantic-ui-react"
+import { Container, Header, List, Embed } from "semantic-ui-react"
 
 const SeasonsPage = () => {
   const data = useStaticQuery(graphql`
@@ -26,6 +26,11 @@ const SeasonsPage = () => {
         season
         year
         imdb
+        trailer {
+          source
+          id
+        }
+        synopsis
         stream {
           source
           url
@@ -75,6 +80,15 @@ const SeasonsPage = () => {
             {featuredSeason.stream[0].source}
           </a>
         </Header>
+        <Embed
+          id={featuredSeason.trailer.id}
+          source={featuredSeason.trailer.source}
+          placeholder={`/images/season-${featuredSeason.season}-cover.png`}
+        />
+        <p>{featuredSeason.synopsis}</p>
+        <Link to={`/seasons/${featuredSeason.season}/`}>
+          More Season Details
+        </Link>
         <Header as="h3">Previous Seasons</Header>
         <List horizontal>
           {prevSeasons.map(season => {
