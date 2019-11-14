@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Eastsiders The Series`,
     description: `Chronicalling infidelity and substance abuse of a gay couple living in Silver Lake, Los Angeles.`,
-    author: `@aydrian`,
+    author: `@eastsiderstv`,
     email: "eastsiderstv@gmail.com",
   },
   plugins: [

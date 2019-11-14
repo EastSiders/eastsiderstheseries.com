@@ -24,7 +24,7 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
-  // TODO: Add <meta property="og:image" content="">
+
   const metaDescription = description || site.siteMetadata.description
 
   return (
@@ -41,7 +41,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: `${title} | ${site.siteMetadata.title}`,
         },
         {
           property: `og:description`,
@@ -50,6 +50,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          name: `og:image`,
+          content: `/images/season-4-cover.png`,
         },
         {
           name: `twitter:card`,
@@ -61,7 +65,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `${title} | ${site.siteMetadata.title}`,
         },
         {
           name: `twitter:description`,
