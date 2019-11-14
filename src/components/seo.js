@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `og:image`,
-          content: `/images/season-4-cover.png`,
+          content: `/images/og-image.png`,
         },
         {
           name: `twitter:card`,
@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: `/images/season-4-cover.png`,
+          content: `/images/og-image.png`,
         },
       ].concat(meta)}
     />
