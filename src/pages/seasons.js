@@ -7,7 +7,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Header, List, Embed } from "semantic-ui-react"
+import { Header, Embed } from "semantic-ui-react"
 
 const StyledUl = styled.ul`
   list-style-type: none;
