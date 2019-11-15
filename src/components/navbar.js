@@ -53,6 +53,7 @@ export default class Navbar extends Component {
           fireOnMount
           onUpdate={this.handleOnUpdate}
           widths={menuWidths}
+          id="menubar"
         >
           <Container>
             <Menu.Item header as={Link} to="/">

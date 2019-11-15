@@ -85,6 +85,21 @@ const SeasonTemplate = ({ data: { seasonsJson } }) => {
     press,
     synopsis,
   } = seasonsJson
+
+  const scrollTo = e => {
+    e.preventDefault()
+    const $menubar = document.getElementById("menubar")
+    const menuHeight = $menubar.getBoundingClientRect().height
+    console.log(menuHeight)
+    const id = e.currentTarget.getAttribute("href").slice(1)
+    const $anchor = document.getElementById(id)
+    const offsetTop = $anchor.getBoundingClientRect().top + window.pageYOffset
+    window.scroll({
+      top: offsetTop - menuHeight,
+      behavior: "smooth",
+    })
+  }
+
   return (
     <Layout>
       <Breadcrumb>
@@ -99,17 +114,23 @@ const SeasonTemplate = ({ data: { seasonsJson } }) => {
       <List horizontal bulleted floated="right">
         {cast && (
           <List.Item>
-            <a href="#cast">Cast</a>
+            <a href="#cast" onClick={scrollTo}>
+              Cast
+            </a>
           </List.Item>
         )}
         {soundtrack && (
           <List.Item>
-            <a href="#soundtrack">Soundtrack</a>
+            <a href="#soundtrack" onClick={scrollTo}>
+              Soundtrack
+            </a>
           </List.Item>
         )}
         {press && (
           <List.Item>
-            <a href="#press">Press</a>
+            <a href="#press" onClick={scrollTo}>
+              Press
+            </a>
           </List.Item>
         )}
       </List>
