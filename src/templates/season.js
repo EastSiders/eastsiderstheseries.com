@@ -1,8 +1,10 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
-import Layout from "../components/layout"
 import { Header, Icon, Breadcrumb, List } from "semantic-ui-react"
+
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 import Details from "../components/season-details"
 import Soundtrack from "../components/soundtrack"
@@ -90,9 +92,12 @@ const SeasonTemplate = ({ data: { seasonsJson } }) => {
     e.preventDefault()
     const $menubar = document.getElementById("menubar")
     const menuHeight = $menubar.getBoundingClientRect().height
-    console.log(menuHeight)
     const id = e.currentTarget.getAttribute("href").slice(1)
     const $anchor = document.getElementById(id)
+    /*$anchor.scrollIntoView({
+      block: "start",
+      behavior: "smooth",
+    })*/
     const offsetTop = $anchor.getBoundingClientRect().top + window.pageYOffset
     window.scroll({
       top: offsetTop - menuHeight,
@@ -102,6 +107,7 @@ const SeasonTemplate = ({ data: { seasonsJson } }) => {
 
   return (
     <Layout>
+      <SEO title={`Season ${season} (${year})`} />
       <Breadcrumb>
         <Breadcrumb.Section as={Link} to="/seasons" link>
           Seasons
