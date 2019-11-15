@@ -60,8 +60,8 @@ const Layout = ({ children }) => {
       <Container>
         {children}
         <Footer />
-        <NavbarBottom />
       </Container>
+      <NavbarBottom />
     </>
   )
 }
