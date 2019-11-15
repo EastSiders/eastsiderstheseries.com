@@ -7,7 +7,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Header, Embed } from "semantic-ui-react"
+import { Header, Embed, Responsive } from "semantic-ui-react"
 
 const StyledUl = styled.ul`
   list-style-type: none;
@@ -18,7 +18,7 @@ const StyledUl = styled.ul`
   grid-gap: 1rem;
   grid-auto-flow: row;
 
-  @media (max-width: 700px) {
+  @media (max-width: ${Responsive.onlyTablet.maxWidth}px) {
     grid-auto-flow: column;
   }
 `
@@ -33,7 +33,7 @@ const Container = styled.div`
   grid-template-columns: repeat(5, 1fr);
   grid-template-areas: "main main main main sidebar";
 
-  @media (max-width: 700px) {
+  @media (max-width: ${Responsive.onlyTablet.maxWidth}px) {
     grid-template-columns: 1fr;
     grid-template-areas:
       "main"

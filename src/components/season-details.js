@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Embed } from "semantic-ui-react"
+import { Embed, Responsive } from "semantic-ui-react"
 
 const Grid = styled.section`
   display: grid;
@@ -11,7 +11,7 @@ const Grid = styled.section`
     "trailer trailer synopsis"
     "trailer trailer watch";
 
-  @media (max-width: 700px) {
+  @media (max-width: ${Responsive.onlyTablet.maxWidth}px) {
     grid-template-columns: 1fr;
     grid-template-areas:
       "trailer"

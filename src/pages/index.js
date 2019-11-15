@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MerchCard from "../components/merchCard"
 import Patreon from "../components/patreon"
-import { Header, Embed } from "semantic-ui-react"
+import { Header, Embed, Responsive } from "semantic-ui-react"
 
 const Wrapper = styled.div`
   display: grid;
@@ -16,7 +16,7 @@ const Wrapper = styled.div`
     "featured featured featured side1"
     "featured featured featured side2";
 
-  @media (max-width: 700px) {
+  @media (max-width: ${Responsive.onlyTablet.maxWidth}px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
       "featured featured"
