@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql /*, Link*/ } from "gatsby"
 import Image from "gatsby-image"
 import styled from "styled-components"
-import { Header } from "semantic-ui-react"
+import { Header, Responsive } from "semantic-ui-react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,6 +10,26 @@ import ContactForm from "../components/contactForm"
 
 const Section = styled.section`
   margin-top: 1em;
+`
+const Wrapper = styled.div`
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "image text";
+
+  @media (max-width: ${Responsive.onlyTablet.maxWidth}px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "text";
+  }
+
+  &:nth-child(1) {
+    grid-area: image;
+  }
+  &:nth-child(2) {
+    grid-area: text;
+  }
 `
 
 const MorePage = () => {
@@ -29,52 +49,26 @@ const MorePage = () => {
       <SEO title="More" />
       <Section>
         <Header as="h2">About</Header>
-        <Image
-          fluid={data.groupPic.childImageSharp.fluid}
-          className="ui left floated image rounded"
-          style={{ width: "40vw" }}
-        />
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat
-          maecenas volutpat blandit aliquam etiam erat. Amet commodo nulla
-          facilisi nullam vehicula ipsum a arcu cursus. Faucibus pulvinar
-          elementum integer enim. Penatibus et magnis dis parturient montes
-          nascetur. Eget aliquet nibh praesent tristique magna sit amet. Tempor
-          id eu nisl nunc mi ipsum faucibus vitae aliquet. Semper viverra nam
-          libero justo. Molestie ac feugiat sed lectus vestibulum mattis
-          ullamcorper velit sed. Sollicitudin nibh sit amet commodo nulla.
-          Aliquam purus sit amet luctus venenatis lectus magna fringilla. Amet
-          purus gravida quis blandit turpis cursus in. Odio aenean sed
-          adipiscing diam donec adipiscing tristique risus.
-          <br />
-          Nisi lacus sed viverra tellus in hac. Sociis natoque penatibus et
-          magnis dis parturient montes nascetur. Nunc eget lorem dolor sed
-          viverra ipsum nunc aliquet bibendum. Ornare lectus sit amet est.
-          Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget.
-          Vitae proin sagittis nisl rhoncus mattis rhoncus. Cras fermentum odio
-          eu feugiat pretium. At tellus at urna condimentum mattis pellentesque
-          id nibh tortor. Condimentum lacinia quis vel eros. Sit amet volutpat
-          consequat mauris nunc congue nisi vitae suscipit. Sapien faucibus et
-          molestie ac. Placerat duis ultricies lacus sed turpis tincidunt id
-          aliquet risus.
-          <br />
-          Sit amet facilisis magna etiam tempor orci. Non diam phasellus
-          vestibulum lorem. Non blandit massa enim nec. Egestas tellus rutrum
-          tellus pellentesque eu. Nibh nisl condimentum id venenatis a. Sed arcu
-          non odio euismod lacinia at quis risus. Commodo sed egestas egestas
-          fringilla phasellus faucibus scelerisque eleifend. Tempor nec feugiat
-          nisl pretium fusce id velit ut tortor. Sapien nec sagittis aliquam
-          malesuada bibendum arcu vitae elementum. Nec nam aliquam sem et tortor
-          consequat id. Metus dictum at tempor commodo ullamcorper a.
-          Ullamcorper malesuada proin libero nunc consequat interdum varius sit
-          amet. Adipiscing diam donec adipiscing tristique risus nec. Diam
-          maecenas sed enim ut sem viverra aliquet eget. Nunc sed velit
-          dignissim sodales ut eu sem. Quam id leo in vitae. Ultrices mi tempus
-          imperdiet nulla malesuada pellentesque. Amet tellus cras adipiscing
-          enim eu.
-        </p>
+        <Wrapper>
+          <Image
+            fluid={data.groupPic.childImageSharp.fluid}
+            className="ui image rounded"
+          />
+          <p>
+            "EastSiders" launched on YouTube in 2012 to a lot of love from fans
+            and critics alike, with Entertainment Weekly calling the show "funny
+            and heartbreaking" and Out Magazine praising it as "relatable, fresh
+            and darkly funny." The show has been nominated for 8 Daytime Emmy
+            Awards, including Outstanding Digital Drama Series, Outstanding
+            Writing and Directing for Kit Williamson, Outstanding Actor for Van
+            Hansis and Outstanding Supporting Actor for Stephen Guarino and John
+            Halbach. The series won Best Web Drama at the LA Weekly Awards, Best
+            Ensemble at the Indie Series Awards and was nominated for a
+            Satellite Award from the International Press Academy. In 2016 the
+            series found a world-wide audience on Netflix, and has now been
+            subtitled in more than 30 languages.
+          </p>
+        </Wrapper>
       </Section>
       <Section>
         <Header as="h2">Contact Us</Header>
