@@ -18,6 +18,16 @@ exports.createSchemaCustomization = ({ actions }) => {
 }
 
 exports.createPages = async ({ actions, graphql, reporter }, options) => {
+  const { createPage, createRedirect } = actions
+
+  // Redirect /watch/ to /seasons/
+  createRedirect({
+    fromPath: `/watch`,
+    isPermanent: true,
+    redirectInBrowser: true,
+    toPath: `/seasons`,
+  })
+
   const result = await graphql(`
     query {
       allSeasonsJson(sort: { fields: season }) {
@@ -36,7 +46,7 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
 
   const seasons = result.data.allSeasonsJson.nodes
   seasons.forEach(season => {
-    actions.createPage({
+    createPage({
       path: `/seasons/${season.season}`,
       component: require.resolve("./src/templates/season.js"),
       context: {

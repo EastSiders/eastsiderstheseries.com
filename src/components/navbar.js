@@ -65,7 +65,7 @@ export default class Navbar extends Component {
               position="right"
               {...Responsive.onlyComputer}
             >
-              <Menu.Item as={Link} activeClassName="active" to="/seasons">
+              <Menu.Item as={Link} activeClassName="active" to="/watch">
                 WATCH
               </Menu.Item>
               <Menu.Item as={Link} activeClassName="active" to="/merch">

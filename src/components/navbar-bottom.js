@@ -24,7 +24,7 @@ export default class NavbarBottom extends Component {
           <Icon name="home" />
           HOME
         </Menu.Item>
-        <Menu.Item as={Link} activeClassName="active" to="/seasons">
+        <Menu.Item as={Link} activeClassName="active" to="/watch">
           <Icon name="tv" />
           WATCH
         </Menu.Item>
