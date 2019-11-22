@@ -15,20 +15,21 @@ const Wrapper = styled.div`
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "image text";
+  grid-template-areas: "image about";
 
   @media (max-width: ${Responsive.onlyTablet.maxWidth}px) {
     grid-template-columns: 1fr;
     grid-template-areas:
       "image"
-      "text";
+      "about";
   }
 
-  &:nth-child(1) {
+  div.image {
     grid-area: image;
   }
-  &:nth-child(2) {
-    grid-area: text;
+
+  p {
+    grid-area: about;
   }
 `
 
