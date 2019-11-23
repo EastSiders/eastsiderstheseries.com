@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Embed, Responsive } from "semantic-ui-react"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
+import { OutboundLink, trackCustomEvent } from "gatsby-plugin-google-analytics"
 
 const Grid = styled.section`
   display: grid;
@@ -55,6 +55,16 @@ const Details = ({ season, trailer, synopsis, stream, purchase }) => (
           id={trailer.id}
           source={trailer.source}
           placeholder={`/images/season-${season}-cover.png`}
+          onClick={e => {
+            trackCustomEvent({
+              // string - required - The object that was interacted with (e.g.video)
+              category: "Trailer",
+              // string - required - Type of interaction (e.g. 'play')
+              action: "Play",
+              // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
+              label: `Season ${season}`,
+            })
+          }}
         />
       </Trailer>
     )}

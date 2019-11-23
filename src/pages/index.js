@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import styled from "styled-components"
 import { Header, Embed, Responsive } from "semantic-ui-react"
+import { trackCustomEvent } from "gatsby-plugin-google-analytics"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -81,6 +82,16 @@ const IndexPage = () => {
             id={featuredSeason.trailer.id}
             source={featuredSeason.trailer.source}
             placeholder={`/images/season-${featuredSeason.season}-cover.png`}
+            onClick={e => {
+              trackCustomEvent({
+                // string - required - The object that was interacted with (e.g.video)
+                category: "Trailer",
+                // string - required - Type of interaction (e.g. 'play')
+                action: "Play",
+                // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
+                label: `Season ${featuredSeason.season}`,
+              })
+            }}
           />
           <p>{featuredSeason.synopsis}</p>
         </Featured>
