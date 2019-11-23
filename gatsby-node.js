@@ -22,10 +22,10 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
 
   // Redirect /watch/ to /seasons/
   createRedirect({
-    fromPath: `/watch`,
+    fromPath: `/seasons`,
     isPermanent: true,
     redirectInBrowser: true,
-    toPath: `/seasons`,
+    toPath: `/watch`,
   })
 
   const result = await graphql(`

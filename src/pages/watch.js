@@ -49,7 +49,7 @@ const Sidebar = styled.div`
   grid-area: sidebar;
 `
 
-const SeasonsPage = () => {
+const WatchPage = () => {
   const data = useStaticQuery(graphql`
     query {
       prevSeasons: allSeasonsJson(
@@ -156,4 +156,4 @@ const SeasonsPage = () => {
   )
 }
 
-export default SeasonsPage
+export default WatchPage
