@@ -25,6 +25,9 @@ const StyledUl = styled.ul`
 
 const StyledLi = styled.li`
   text-align: center;
+  img {
+    border-radius: 0.3125em;
+  }
 `
 
 const Container = styled.div`
