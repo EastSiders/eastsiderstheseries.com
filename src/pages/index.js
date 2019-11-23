@@ -1,12 +1,12 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import styled from "styled-components"
+import { Header, Embed, Responsive } from "semantic-ui-react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MerchCard from "../components/merchCard"
 import Patreon from "../components/patreon"
-import { Header, Embed, Responsive } from "semantic-ui-react"
 
 const Wrapper = styled.div`
   display: grid;

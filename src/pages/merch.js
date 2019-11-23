@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 //import { Link } from "gatsby"
 import { Card } from "semantic-ui-react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -30,9 +31,9 @@ const MerchPage = () => {
       <h1>The Merch Table</h1>
       <p>
         Merch available from{" "}
-        <a href="https://www.dragqueenmerch.com/collections/eastsiders">
+        <OutboundLink href="https://www.dragqueenmerch.com/collections/eastsiders">
           DRAGQUEENMERCH.COM
-        </a>
+        </OutboundLink>
         .
       </p>
       <Card.Group centered>

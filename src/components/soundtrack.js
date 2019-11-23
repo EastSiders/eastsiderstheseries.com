@@ -1,12 +1,17 @@
 import React from "react"
 import { Table, Icon, List } from "semantic-ui-react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const SongRow = ({ song }) => (
   <Table.Row>
     <Table.Cell>
-      <a href={song.artist.url} target="_blank" rel="noopener noreferrer">
+      <OutboundLink
+        href={song.artist.url}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {song.artist.name}
-      </a>
+      </OutboundLink>
     </Table.Cell>
     <Table.Cell>{song.title}</Table.Cell>
     <Table.Cell>
@@ -14,7 +19,7 @@ const SongRow = ({ song }) => (
         {song.urls.map(({ type, url }) => {
           return (
             <List.Item
-              as="a"
+              as={OutboundLink}
               href={url}
               target="_blank"
               rel="noopener noreferrer"

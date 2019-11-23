@@ -1,5 +1,6 @@
 import React from "react"
 import { Table } from "semantic-ui-react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import Social from "./social"
 
 const CastList = ({ cast }) => (
@@ -10,7 +11,7 @@ const CastList = ({ cast }) => (
           <Table.Row key={id}>
             <Table.Cell>{character}</Table.Cell>
             <Table.Cell>
-              <a href={imdb}>{name}</a>
+              <OutboundLink href={imdb}>{name}</OutboundLink>
             </Table.Cell>
             {social && (
               <Table.Cell>

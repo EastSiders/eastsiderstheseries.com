@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Embed, Responsive } from "semantic-ui-react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Grid = styled.section`
   display: grid;
@@ -39,7 +40,7 @@ const ItemList = ({ name, items }) => (
     {items.map(item => {
       return (
         <span key={item.source}>
-          <a href={item.url}>{item.source}</a>{" "}
+          <OutboundLink href={item.url}>{item.source}</OutboundLink>{" "}
         </span>
       )
     })}
