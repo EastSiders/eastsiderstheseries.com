@@ -3,6 +3,8 @@ import { graphql, useStaticQuery } from "gatsby"
 import { Link } from "gatsby"
 import Image from "gatsby-image"
 import styled from "styled-components"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
+import { capitalize } from "../utils/helper-fuctions"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -121,9 +123,9 @@ const WatchPage = () => {
           <Header as="h1">Watch Season {featuredSeason.season}</Header>
           <Header as="h2">
             Stream on{" "}
-            <a href={featuredSeason.stream[0].url}>
-              {featuredSeason.stream[0].source}
-            </a>
+            <OutboundLink href={featuredSeason.stream[0].url}>
+              {capitalize(featuredSeason.stream[0].source)}
+            </OutboundLink>
           </Header>
           <Embed
             id={featuredSeason.trailer.id}

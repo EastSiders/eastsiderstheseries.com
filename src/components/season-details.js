@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Embed, Responsive } from "semantic-ui-react"
 import { OutboundLink, trackCustomEvent } from "gatsby-plugin-google-analytics"
+import { capitalize } from "../utils/helper-fuctions"
 
 const Grid = styled.section`
   display: grid;
@@ -40,7 +41,7 @@ const ItemList = ({ name, items }) => (
     {items.map(item => {
       return (
         <span key={item.source}>
-          <OutboundLink href={item.url}>{item.source}</OutboundLink>{" "}
+          <OutboundLink href={item.url}>{capitalize(item.source)}</OutboundLink>{" "}
         </span>
       )
     })}
