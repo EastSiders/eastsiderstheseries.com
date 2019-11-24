@@ -4,7 +4,7 @@ module.exports = {
     description: `Chronicalling infidelity and substance abuse of a gay couple living in Silver Lake, Los Angeles.`,
     author: `@eastsiderstv`,
     email: "eastsiderstv@gmail.com",
-    url: "https://eastsiders.netlify.com/",
+    url: "https://eastsiderstheseries.com/",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
