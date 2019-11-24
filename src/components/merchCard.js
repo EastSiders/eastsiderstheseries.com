@@ -8,8 +8,14 @@ const numFormat = new Intl.NumberFormat("en-US", {
 })
 
 const MerchCard = ({ item, ...rest }) => (
-  <Card as={OutboundLink} href={item.url} target="_blank" {...rest}>
-    <Image src={item.thumbnail} />
+  <Card
+    as={OutboundLink}
+    href={item.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    {...rest}
+  >
+    <Image src={item.thumbnail} alt={item.name} />
     <Card.Content>
       <Card.Header>{item.name}</Card.Header>
       <Card.Description>{numFormat.format(item.price)}</Card.Description>
