@@ -267,6 +267,508 @@
   },
   {
     "season": 2,
+    "title": "Map of the World",
+    "artist": {
+      "name": "Daniel Zaitchik",
+      "url": "http://danielzaitchik.com/home.html"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/map-of-the-world/898290682"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Eighteen",
+    "artist": {
+      "name": "Hi Fashion",
+      "url": "http://theworldofhifashion.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/lighthouse/673214244"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Pupusa",
+    "artist": {
+      "name": "Hi Fashion",
+      "url": "http://theworldofhifashion.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/pupusa/673214244?i=673214306"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "You Are Gorgeous",
+    "artist": {
+      "name": "Hi Fashion",
+      "url": "http://theworldofhifashion.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/you-are-gorgeous/673214244?i=673214304"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "I’m Not Madonna",
+    "artist": {
+      "name": "Hi Fashion",
+      "url": "http://theworldofhifashion.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/im-not-madonna/452733626?i=452733676"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Man Areas",
+    "artist": { "name": "Jonny McGovern", "url": "http://gaypimp.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/man-areas/502554261?i=502554268"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "The Enemy",
+    "artist": { "name": "Kevin DeKimpe", "url": "http://kevindekimpe.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/the-enemy/1355387351?i=1355387354"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Running Circles",
+    "artist": { "name": "Kevin DeKimpe", "url": "http://kevindekimpe.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/running-circles/1355387351?i=1355387355"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Your Heart's Not Fine",
+    "artist": {
+      "name": "The Lexingtons",
+      "url": "https://lexingtons.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/wearethelexingtons/05-your-hearts-not-fine"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Little Pill",
+    "artist": {
+      "name": "The Lexingtons",
+      "url": "https://lexingtons.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=WIZ0_ACQYzA"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "We Must Pay",
+    "artist": { "name": "Little Brutes", "url": "http://littlebrutes.com/" },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://littlebrutes.bandcamp.com/track/we-must-pay"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Lisa Turtle",
+    "artist": { "name": "Loco Ninja", "url": "http://thelocoworld.com/" },
+    "urls": [
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/loconinja/05-lisa-turtle"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Cliff",
+    "artist": {
+      "name": "Purmamarca",
+      "url": "https://purmamarca.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://purmamarca.bandcamp.com/track/cliff"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Love of Mine",
+    "artist": {
+      "name": "Purmamarca",
+      "url": "https://purmamarca.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://purmamarca.bandcamp.com/track/love-of-mine"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Photograph",
+    "artist": {
+      "name": "Purmamarca",
+      "url": "https://purmamarca.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://purmamarca.bandcamp.com/track/photograph"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Worldwide",
+    "artist": {
+      "name": "Sister Mantos",
+      "url": "http://www.sistermantos.com/"
+    },
+    "urls": [
+      {
+        "type": "bandcamp",
+        "url": "https://sistermantos.bandcamp.com/track/worldwide"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Fireworks",
+    "artist": { "name": "Steve Taylor", "url": "http://stevetaylormusic.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/fireworks/1022995699?i=1022995711"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Sitting",
+    "artist": { "name": "Steve Taylor", "url": "http://stevetaylormusic.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/sitting/1022995699?i=1022995709"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Aquafish",
+    "artist": { "name": "Steve Taylor", "url": "http://stevetaylormusic.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/aquafish/276884979?i=276884984"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Real Live You",
+    "artist": {
+      "name": "Syntrobic",
+      "url": "https://www.beatport.com/artist/syntrobic/327417"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/real-live-you-feat-randi-soyland/639843401?i=639843693"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Hellium Balloon",
+    "artist": {
+      "name": "Willow Willow",
+      "url": "https://myspace.com/willowwillow"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/helium-balloon/951804017?i=951804122"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Swiss Army Knife",
+    "artist": {
+      "name": "Willow Willow",
+      "url": "https://myspace.com/willowwillow"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/swiss-army-knife/951804017?i=951804117"
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "title": "Terribly Smart",
+    "artist": {
+      "name": "Willow Willow",
+      "url": "https://myspace.com/willowwillow"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/terribly-smart/951804017?i=951804111"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Your Makeup Is Terrible",
+    "artist": {
+      "name": "Alaska Thunderfuck",
+      "url": "http://alaskathunderfuck.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/your-makeup-is-terrible/886004400?i=886004410"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/25Y5EIIljjyEhKdl23zv6j"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Who Knows",
+    "artist": { "name": "Beginners", "url": "http://beginners.band/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/who-knows/836245945?i=836245970"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/6T5eAjtjBQJEWVGtndJ9XA"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Free To Love",
+    "artist": {
+      "name": "Brendan Maclean",
+      "url": "https://brendanmaclean.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/free-to-love/1118291248?i=1118291252"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/21bjyVbPk1m91nRsHwmShA"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "House of Air",
+    "artist": {
+      "name": "Brendan Maclean",
+      "url": "https://brendanmaclean.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/house-of-air/1118291248?i=1118291250"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/4X7ysTGQh6Fao70p9noew1"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Undetectable",
+    "artist": {
+      "name": "Brendan Maclean",
+      "url": "https://brendanmaclean.bandcamp.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/undetectable/1118291248?i=1118291253"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/3hcWDqjBKoehe1fLYrMRTw"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Has the Size of the Road Got The Better of You",
+    "artist": { "name": "Steve Taylor", "url": "http://stevetaylormusic.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/has-the-size-of-the-road-got-the-better-of-you/276884979?i=276884988"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5h4I7c63iYM1aZi7PBwWTO"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Body Parts",
+    "artist": { "name": "Courtney Act", "url": "http://courtneyact.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/body-parts/1009508296?i=1009508589"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/4zqKayeb5rFaI62yVSUaJM"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Highway",
+    "artist": {
+      "name": "The Battlefield",
+      "url": "https://www.thebattlefieldepk.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/highway/1274347349?i=1274347356"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5FWK8tlhKDe8tyqmBxKLJh"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Transient",
+    "artist": {
+      "name": "The Battlefield",
+      "url": "https://www.thebattlefieldepk.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/transient/1002488852?i=1002489439"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/1nxj5sRxeSVtpOi5piLuCW"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Into the Sun",
+    "artist": {
+      "name": "The Battlefield",
+      "url": "https://www.thebattlefieldepk.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/into-the-sun/1002488852?i=1002489442"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/1hWCSw5zbGCNVCAPSHcDlp"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "All I Wanted",
+    "artist": {
+      "name": "The Battlefield",
+      "url": "https://www.thebattlefieldepk.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/all-i-wanted/1274347349?i=1274347514"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/2ocLdjn4hhIyUdWz0S4RVZ"
+      }
+    ]
+  },
+  {
+    "season": 3,
+    "title": "Make Our Own Way",
+    "artist": { "name": "Little Brutes", "url": "http://littlebrutes.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/make-our-own-way/956136029?i=956136030"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5RZZ0nZHC6mrKdzoPgsG3P"
+      }
+    ]
+  },
+  {
+    "season": 5,
     "title": "",
     "artist": {
       "name": "",
