@@ -10,6 +10,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/summer-young-golden/429244885?i=429245064"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/38Cg9tpc4RO2QgDw25S6ys"
       }
     ]
   },
@@ -24,6 +28,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/cheetah/441743122?i=441743178"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/4SjYEbHPhVNGK86B5USYPt"
       }
     ]
   },
@@ -37,7 +45,11 @@
     "urls": [
       {
         "type": "apple",
-        "url": "https://itunes.apple.com/us/album/human-nature/id332657179"
+        "url": "https://music.apple.com/us/album/human-nature-tom-napack-remix/371000069?i=371000247"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5XWDIyhYbOSjfcudoda4uK"
       }
     ]
   },
@@ -51,7 +63,11 @@
     "urls": [
       {
         "type": "apple",
-        "url": "https://itunes.apple.com/us/album/touch-me-f.-alan-mx-alicia/id332657179?i=332657517"
+        "url": "https://music.apple.com/us/album/touch-me-unhitched-feat-alan-mx-alicia-solombrino/371000069?i=371000256"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/16brRfin0p9q8TaRtVxjbC"
       }
     ]
   },
@@ -66,6 +82,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/amazing/452733626?i=452733635"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/6CQqi9grqoHMlzrXZlTMvB"
       }
     ]
   },
@@ -78,8 +98,8 @@
     },
     "urls": [
       {
-        "type": "",
-        "url": ""
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/1y5AQjt4FzdbLF3nWqtNtx"
       }
     ]
   },
@@ -94,6 +114,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/let-it-break/603369548?i=603369985"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/1PiUYnorD7bZXJLNt0sXiG"
       }
     ]
   },
@@ -108,6 +132,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/dickmatized/489403111?i=489403112"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/2g9zoTM4KtKrFAxwSHMRY9"
       }
     ]
   },
@@ -188,12 +216,7 @@
       "name": "Max Vernon",
       "url": "https://www.maxvernon.com/"
     },
-    "urls": [
-      {
-        "type": "",
-        "url": ""
-      }
-    ]
+    "urls": []
   },
   {
     "season": 1,
@@ -204,8 +227,8 @@
     },
     "urls": [
       {
-        "type": "",
-        "url": ""
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/4KAMjg7FrnfcH5KGmQNiXW"
       }
     ]
   },
@@ -220,6 +243,10 @@
       {
         "type": "bandcamp",
         "url": "https://ryanmacgrathmusic.bandcamp.com/track/the-darkside"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/18KAAKMdiYRsdWtfwnrLf1"
       }
     ]
   },
@@ -248,6 +275,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/the-cruelest-kind/951804017?i=951804131"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/30HC7cGBliqNvHRgrX5zDS"
       }
     ]
   },
@@ -262,6 +293,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/my-little-cloud/951804017?i=951804085"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5vvYb1L47khvTOtXmfHpVf"
       }
     ]
   },
@@ -276,6 +311,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/map-of-the-world/898290682"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/7G9lUHX00Aef8B1yBKIKH7"
       }
     ]
   },
@@ -290,6 +329,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/lighthouse/673214244"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/46N9PP48GBkJIiVCKrZqmE"
       }
     ]
   },
@@ -304,6 +347,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/pupusa/673214244?i=673214306"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/39m7mAppFbyQE9YsjHZDNA"
       }
     ]
   },
@@ -318,6 +365,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/you-are-gorgeous/673214244?i=673214304"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/0XSPtqewX7LuDRLnKMUXXr"
       }
     ]
   },
@@ -332,6 +383,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/im-not-madonna/452733626?i=452733676"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/2Nh6mfG3SnrLi8un41fdHh"
       }
     ]
   },
@@ -343,6 +398,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/man-areas/502554261?i=502554268"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/3AN5LEspFZQdQUFUUqsDct"
       }
     ]
   },
@@ -443,6 +502,10 @@
       {
         "type": "bandcamp",
         "url": "https://purmamarca.bandcamp.com/track/love-of-mine"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/0rPxLjuw4yC6MYLiygpiTw"
       }
     ]
   },
@@ -457,6 +520,10 @@
       {
         "type": "bandcamp",
         "url": "https://purmamarca.bandcamp.com/track/photograph"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5pwFKgMl5AgzLzZyqQEStm"
       }
     ]
   },
@@ -471,6 +538,10 @@
       {
         "type": "bandcamp",
         "url": "https://sistermantos.bandcamp.com/track/worldwide"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5RbiYGZt6JpEd9walYqd7q"
       }
     ]
   },
@@ -482,6 +553,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/fireworks/1022995699?i=1022995711"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5cgW23nML477afIF4fgI0O"
       }
     ]
   },
@@ -493,6 +568,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/sitting/1022995699?i=1022995709"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5vPQ7GumM9jcqB1teKx7Az"
       }
     ]
   },
@@ -504,6 +583,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/aquafish/276884979?i=276884984"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5oRVILmgNVO19XDtqdMwyP"
       }
     ]
   },
@@ -518,6 +601,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/real-live-you-feat-randi-soyland/639843401?i=639843693"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/1S1HQGDLURMIZfN6Mf1dMA"
       }
     ]
   },
@@ -532,6 +619,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/helium-balloon/951804017?i=951804122"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/3snJmD8rHY4aJDuOwAHzcc"
       }
     ]
   },
@@ -546,6 +637,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/swiss-army-knife/951804017?i=951804117"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/7fzSeuNNusgxRiaJd3H2Xk"
       }
     ]
   },
@@ -560,6 +655,10 @@
       {
         "type": "apple",
         "url": "https://music.apple.com/us/album/terribly-smart/951804017?i=951804111"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/6eZDUGdBQOllnNEghWinK3"
       }
     ]
   },
@@ -764,6 +863,75 @@
       {
         "type": "spotify",
         "url": "https://open.spotify.com/track/5RZZ0nZHC6mrKdzoPgsG3P"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Heartbreak On Vinyl",
+    "artist": { "name": "Blake Lewis", "url": "http://smarturl.it/BlakeLewis" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/heartbreak-on-vinyl/330173984?i=330174723"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/0VPoJpSqLEfcAyS4FAX2Y8"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Fabulous Muscles",
+    "artist": { "name": "Xiu Xiu", "url": "http://www.xiuxiu.org/home" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/fabulous-muscles/313837393?i=313837403"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/0pp0ryp3L5NH1UX2JzP2VA"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Pink Diamond",
+    "artist": { "name": "CrazyBoy", "url": "https://crazyboy.jp/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/pink-diamond/1474792879?i=1474792880"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/3T8n9GkSi43V6n6iAobQFM"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Kill to Know",
+    "artist": { "name": "Wiz Kilo", "url": "http://wizkilo.com/" },
+    "urls": []
+  },
+  {
+    "season": 4,
+    "title": "Oh, Lucifer",
+    "artist": {
+      "name": "Logan Lynn",
+      "url": "https://www.loganlynnmusic.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/tt/album/oh-lucifer/1122880309?i=1122880733"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/2PcsbnPMvNOEfvk2JNHiqT"
       }
     ]
   },
