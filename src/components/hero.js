@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import Image from "gatsby-image"
 import styled from "styled-components"
 
@@ -39,17 +39,13 @@ const BgImage = styled(Image)`
   props.position || "50% 50%"} !important;'
   }
 `
-
-class Hero extends Component {
-  render() {
-    const { children } = this.props
-    return (
-      <Container>
-        <BgImage {...this.props} />
-        <Overlay>{children}</Overlay>
-      </Container>
-    )
-  }
+const Hero = ({ children, ...rest }) => {
+  return (
+    <Container>
+      <BgImage {...rest} />
+      <Overlay>{children}</Overlay>
+    </Container>
+  )
 }
 
 export default Hero

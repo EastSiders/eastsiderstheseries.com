@@ -93,7 +93,7 @@ const WatchPage = () => {
             base
             childImageSharp {
               fluid(maxWidth: 400) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
