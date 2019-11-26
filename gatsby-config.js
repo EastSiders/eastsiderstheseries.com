@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Eastsiders The Series`,
-    description: `Chronicalling infidelity and substance abuse of a gay couple living in Silver Lake, Los Angeles.`,
+    description: `An American dark comedy series created by Kit Williamson.`,
     author: `@eastsiderstv`,
     email: "eastsiderstv@gmail.com",
     url: "https://eastsiderstheseries.com/",
