@@ -4,7 +4,7 @@ module.exports = {
     description: `An American dark comedy series created by Kit Williamson.`,
     author: `@eastsiderstv`,
     email: "eastsiderstv@gmail.com",
-    siteUrl: `https://eastsiderstheseries.com/`,
+    siteUrl: `https://eastsiderstheseries.com`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
