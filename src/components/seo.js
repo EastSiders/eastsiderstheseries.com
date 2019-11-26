@@ -58,7 +58,7 @@ function SEO({ description, lang, meta, title }) {
           content: site.siteMetadata.title,
         },
         {
-          name: `og:image`,
+          property: `og:image`,
           content: ogImage,
         },
         {
