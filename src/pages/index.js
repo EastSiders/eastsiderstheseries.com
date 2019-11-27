@@ -106,7 +106,7 @@ const IndexPage = () => {
             <Button
               as="a"
               href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-                "Watch the trailer for Eastsiders Season 4 available to stream on @Netflix beginning December 1."
+                "Watch the trailer for Eastsiders Season 4 available on @Netflix beginning December 1."
               )}&url=${encodeURIComponent(
                 "https://www.youtube.com/watch?v=hdoeDtY6XQc"
               )}&via=${"eastsiderstv"}`}
@@ -171,15 +171,15 @@ const IndexPage = () => {
             </Button>
           </Container>
           <p style={{ paddingTop: "0.5em" }}>
-            The fourth and final season of Eastsiders will be released on
-            December 1 for Streaming on Netflix. Until then, get a glimpse of
-            whats coming by watching the Season 4 trailer above. Share with your
-            friends using the provided social sharing buttons.
+            The fourth and final season of Eastsiders will be available on
+            Netflix December 1 . Until then, get a glimpse of whats coming by
+            watching the Season 4 trailer above. Share with your friends using
+            the provided social sharing buttons.
             <br />
             <br />
             All 3 seasons of Eastsiders are available to{" "}
             <OutboundLink href={featuredSeason.stream[0].url}>
-              stream on Netflix
+              watch on Netflix
             </OutboundLink>
             . Catch up or rewatch all the episodes.
           </p>

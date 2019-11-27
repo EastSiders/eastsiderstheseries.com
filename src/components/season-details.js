@@ -37,7 +37,7 @@ const Watch = styled.div`
 
 const ItemList = ({ name, items }) => (
   <>
-    {name}:{" "}
+    {name && <span>{name}: </span>}
     {items.map(item => {
       return (
         <span key={item.source}>
@@ -76,7 +76,7 @@ const Details = ({ season, trailer, synopsis, stream, purchase }) => (
       <h3>Watch</h3>
       {stream && (
         <p>
-          <ItemList name="Stream" items={stream} />
+          Available on <ItemList items={stream} />
         </p>
       )}
       {purchase && (

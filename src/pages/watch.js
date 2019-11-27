@@ -122,7 +122,7 @@ const WatchPage = () => {
         <Main>
           <Header as="h1">Watch Season {featuredSeason.season}</Header>
           <Header as="h2">
-            Stream on{" "}
+            Available on{" "}
             <OutboundLink
               href={featuredSeason.stream[0].url}
               target="_blank"
