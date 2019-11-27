@@ -68,7 +68,8 @@ export const query = graphql`
         id
         title
         source
-        date(formatString: "MMMM DD, YYYY")
+        date
+        formattedDate: date(formatString: "MMMM DD, YYYY")
         url
       }
     }
