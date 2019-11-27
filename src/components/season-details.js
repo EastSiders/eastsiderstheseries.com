@@ -41,7 +41,9 @@ const ItemList = ({ name, items }) => (
     {items.map(item => {
       return (
         <span key={item.source}>
-          <OutboundLink href={item.url}>{capitalize(item.source)}</OutboundLink>{" "}
+          <OutboundLink href={item.url} target="_blank" rel="noopener">
+            {capitalize(item.source)}
+          </OutboundLink>{" "}
         </span>
       )
     })}

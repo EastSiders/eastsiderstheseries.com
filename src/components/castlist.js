@@ -11,7 +11,9 @@ const CastList = ({ cast }) => (
           <Table.Row key={id}>
             <Table.Cell>{character}</Table.Cell>
             <Table.Cell>
-              <OutboundLink href={imdb}>{name}</OutboundLink>
+              <OutboundLink href={imdb} target="_blank" rel="noopener">
+                {name}
+              </OutboundLink>
             </Table.Cell>
             {social && (
               <Table.Cell>

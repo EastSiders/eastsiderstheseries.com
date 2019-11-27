@@ -29,6 +29,8 @@ const Patreon = () => {
       <Image
         as={OutboundLink}
         href="https://www.patreon.com/kitwilliamson"
+        target="_blank"
+        rel="noopener"
         src="/images/become_a_patron_button.png"
         alt="Become a Patron"
         fluid

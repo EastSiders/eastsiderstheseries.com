@@ -8,7 +8,13 @@ const Social = ({ social, color, size }) => {
     <List horizontal inverted size={size}>
       {social.map(({ name, url, icon }) => {
         return (
-          <List.Item as={OutboundLink} href={url} key={name}>
+          <List.Item
+            as={OutboundLink}
+            href={url}
+            target="_blank"
+            rel="noopener"
+            key={name}
+          >
             <Icon name={icon || name} size="large" title={name} color={color} />
           </List.Item>
         )

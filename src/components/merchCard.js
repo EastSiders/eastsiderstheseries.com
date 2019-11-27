@@ -12,7 +12,7 @@ const MerchCard = ({ item, ...rest }) => (
     as={OutboundLink}
     href={item.url}
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener"
     {...rest}
   >
     <Image src={item.thumbnail} alt={item.name} />

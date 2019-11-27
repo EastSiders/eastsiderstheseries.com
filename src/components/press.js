@@ -12,7 +12,7 @@ const Press = ({ articles }) => (
               as={OutboundLink}
               href={article.url}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
             >
               {article.title}
             </Item.Header>

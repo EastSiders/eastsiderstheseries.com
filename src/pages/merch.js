@@ -31,7 +31,11 @@ const MerchPage = () => {
       <h1>The Merch Table</h1>
       <p>
         Merch available from{" "}
-        <OutboundLink href="https://www.dragqueenmerch.com/collections/eastsiders">
+        <OutboundLink
+          href="https://www.dragqueenmerch.com/collections/eastsiders"
+          target="_blank"
+          rel="noopener"
+        >
           DRAGQUEENMERCH.COM
         </OutboundLink>
         .

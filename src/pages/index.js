@@ -111,7 +111,7 @@ const IndexPage = () => {
                 "https://www.youtube.com/watch?v=hdoeDtY6XQc"
               )}&via=${"eastsiderstv"}`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               onClick={e => {
                 trackCustomEvent({
                   // string - required - The object that was interacted with (e.g.video)
@@ -133,7 +133,7 @@ const IndexPage = () => {
                 "https://www.facebook.com/EastSidersTheSeries/videos/1168035630252433/"
               )}`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               onClick={e => {
                 trackCustomEvent({
                   // string - required - The object that was interacted with (e.g.video)
@@ -153,7 +153,7 @@ const IndexPage = () => {
               as="a"
               href="https://www.youtube.com/watch?v=hdoeDtY6XQc"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               onClick={e => {
                 trackCustomEvent({
                   // string - required - The object that was interacted with (e.g.video)

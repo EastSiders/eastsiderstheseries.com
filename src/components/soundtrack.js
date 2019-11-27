@@ -5,11 +5,7 @@ import { OutboundLink } from "gatsby-plugin-google-analytics"
 const SongRow = ({ song }) => (
   <Table.Row>
     <Table.Cell>
-      <OutboundLink
-        href={song.artist.url}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <OutboundLink href={song.artist.url} target="_blank" rel="noopener">
         {song.artist.name}
       </OutboundLink>
     </Table.Cell>
@@ -22,7 +18,7 @@ const SongRow = ({ song }) => (
               as={OutboundLink}
               href={url}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               key={type}
             >
               <Icon name={type} title={type} />
