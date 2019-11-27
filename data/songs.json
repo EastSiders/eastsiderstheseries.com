@@ -919,6 +919,39 @@
   },
   {
     "season": 4,
+    "title": "Bricks",
+    "artist": { "name": "Wiz Kilo", "url": "http://wizkilo.com/" },
+    "urls": []
+  },
+  {
+    "season": 4,
+    "title": "Undefeated",
+    "artist": { "name": "Wiz Kilo", "url": "http://wizkilo.com/" },
+    "urls": []
+  },
+  {
+    "season": 4,
+    "title": "Last Nite of my Life",
+    "artist": { "name": "Wiz Kilo", "url": "http://wizkilo.com/" },
+    "urls": []
+  },
+  {
+    "season": 4,
+    "title": "Nocturnal",
+    "artist": { "name": "Wiz Kilo", "url": "http://wizkilo.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/nocturnal/1482531999?i=1482532000"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/4rOQZPK9EW0UhaMEindIxj"
+      }
+    ]
+  },
+  {
+    "season": 4,
     "title": "Oh, Lucifer",
     "artist": {
       "name": "Logan Lynn",
@@ -932,6 +965,321 @@
       {
         "type": "spotify",
         "url": "https://open.spotify.com/track/2PcsbnPMvNOEfvk2JNHiqT"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Everything You Touch Turns to Gold",
+    "artist": {
+      "name": "Logan Lynn",
+      "url": "https://www.loganlynnmusic.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/everything-you-touch-turns-to-gold/582735839?i=582735928"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/7Ewpq3OFcOWJ3AHekvQAMb"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "My Movie Star",
+    "artist": {
+      "name": "Logan Lynn",
+      "url": "https://www.loganlynnmusic.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/my-movie-star/1395252614?i=1395252971"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/4uLBwMniDv1onbVcB9Hqsw"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Hologram",
+    "artist": {
+      "name": "Logan Lynn",
+      "url": "https://www.loganlynnmusic.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/hologram/582735839?i=582735924"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/3JVd84CUaf1DO5F0E0RTzd"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Pupusa",
+    "artist": {
+      "name": "Hi Fashion",
+      "url": "http://theworldofhifashion.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/pupusa/673214244?i=673214306"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/39m7mAppFbyQE9YsjHZDNA"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Gangsters or Lovers",
+    "artist": { "name": "Beginners", "url": "http://beginners.band/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/gangsters-or-lovers/1128004140?i=1128004145"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/0EWV3SD7eYjdaNHtWg5zWo"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Ever Love",
+    "artist": { "name": "Beginners", "url": "http://beginners.band/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/ever-love/836245945?i=836245968"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/3zkFtbhN8GeQrnNorWp9dC"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Gently Break It",
+    "artist": { "name": "Beck Pete", "url": "https://www.beckpete.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/gently-break-it/1404934830?i=1404935534"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/2uu6hFeJCYT3WMoVoWIAec"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Can't Let You Go",
+    "artist": { "name": "The Hound", "url": "https://www.thehoundmusic.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/cant-let-you-go/1266094502?i=1266094681"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/11C9z1X31MdAJVIRhovvlb"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Skank",
+    "artist": { "name": "Big Dipper", "url": "http://bigdipperjelly.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/skank/1381134013?i=1381134028"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/22bkbxpeeNAJKz5FaoRK1l"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Beautiful Mess",
+    "artist": { "name": "Tenia", "url": "https://teneia.bandcamp.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/beautiful-mess-live-studio-version-feat-the-maybees/870723400?i=870723413"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/4UqqtHMcaOHNzA6uKdH7uV"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Call Somebody",
+    "artist": {
+      "name": "Heart Society",
+      "url": "https://www.facebook.com/pg/heartsocietymusic/about/?ref=page_internal"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/call-somebody/1331297007?i=1331297396"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/6RkMA4IM4v0vrlQ79Rv3Iw"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Carefully",
+    "artist": { "name": "Little Brutes", "url": "http://littlebrutes.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/carefully/956136029?i=956136031"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/17g0y9AlaNYsyNWXkTRvPW"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "That Woods",
+    "artist": {
+      "name": "Ryan MacGrath",
+      "url": "https://www.facebook.com/ryanmacgrathmusic/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/that-woods/1456012191?i=1456012192"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/4oyvG7knuXV76w0KqkwDlU"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Cyclone",
+    "artist": {
+      "name": "Baby Bash",
+      "url": "https://www.facebook.com/babybash/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/au/album/cyclone-feat-t-pain/273363257?i=273363274"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/27mhCGdAA8gM7b33KIiB3k"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Map of the World",
+    "artist": {
+      "name": "Daniel Zaitchik",
+      "url": "http://www.danielzaitchik.com/"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/map-of-the-world/898290682?i=898290690"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/7G9lUHX00Aef8B1yBKIKH7"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "The Cruelest Kind",
+    "artist": {
+      "name": "Willow Willow",
+      "url": "https://myspace.com/willowwillow"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/the-cruelest-kind/951804017?i=951804131"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/30HC7cGBliqNvHRgrX5zDS"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Highlights",
+    "artist": { "name": "Levenbirds", "url": "https://www.levenbirds.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/highlights/1415245646?i=1415245658"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5wkZEPzhtpZBtSqD8Wcvg4"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "You Were The One",
+    "artist": {
+      "name": "Mario Jose",
+      "url": "https://www.mariojosemusic.com/about"
+    },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/you-were-the-one/1411697393?i=1411697397"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/6d7YfqK5hqbPVZV9I51nba"
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "title": "Magic",
+    "artist": { "name": "Nelly Furtado", "url": "https://nellyfurtado.com/" },
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/be/album/magic/1206609795?i=1206609947"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/6VZ4veznEdypZcdl0EB0bw"
       }
     ]
   },
