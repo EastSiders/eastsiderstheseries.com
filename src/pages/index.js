@@ -45,6 +45,28 @@ const Side2 = styled.div`
   grid-area: side2;
 `
 
+const ShareButtons = styled(Container)`
+  text-align: center;
+
+  a.ui.button {
+    margin: 0.5em;
+  }
+
+  a.ui.button:first-child {
+    margin-left: 0;
+  }
+
+  a.ui.button:last-child {
+    margin-right: 0;
+  }
+
+  @media (max-width: ${Responsive.onlyTablet.maxWidth}px) {
+    a.ui.button {
+      margin: 0.25em;
+    }
+  }
+`
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -102,7 +124,7 @@ const IndexPage = () => {
               })
             }}
           />
-          <Container style={{ paddingTop: "0.5em" }}>
+          <ShareButtons>
             <Button
               as="a"
               href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
@@ -169,7 +191,7 @@ const IndexPage = () => {
             >
               <Icon name="youtube" /> View on YouTube
             </Button>
-          </Container>
+          </ShareButtons>
           <p style={{ paddingTop: "0.5em" }}>
             The fourth and final season of Eastsiders will be available on
             Netflix December 1 . Until then, get a glimpse of whats coming by
