@@ -11,7 +11,7 @@ const SongRow = ({ song }) => (
     </Table.Cell>
     <Table.Cell>{song.title}</Table.Cell>
     <Table.Cell>
-      <List horizontal>
+      <List horizontal size="mini">
         {song.urls.map(({ type, url }) => {
           return (
             <List.Item
@@ -21,7 +21,7 @@ const SongRow = ({ song }) => (
               rel="noopener"
               key={type}
             >
-              <Icon name={type} title={type} />
+              <Icon name={type} title={type} size="large" />
             </List.Item>
           )
         })}
