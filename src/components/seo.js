@@ -60,7 +60,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: ogImage,
+          content: ogImage2,
         },
         {
           name: `twitter:card`,
