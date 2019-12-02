@@ -1,18 +1,19 @@
 import React from "react"
 import styled from "styled-components"
-import Countdown from "./countdown"
+//import Countdown from "./countdown"
 
-const NetflixRed = "#e50914"
+//const NetflixRed = "#e50914"
 
 const StyledHeader = styled.h1`
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
   padding: 0.5rem;
   color: #fff !important;
   background-color: #000;
   text-align: center;
 `
 
-const CountdownWrapper = styled.div`
+/*const CountdownWrapper = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 0;
@@ -21,16 +22,16 @@ const CountdownWrapper = styled.div`
   margin-bottom: 1rem;
   color: #fff;
   background-color: ${NetflixRed};
-`
+`*/
 
 /*const NetflixLogo = styled.span`
   color: ${NetflixRed};
 `*/
 
 const Announcement = () => (
-  <section>
+  <section style={{ marginBottom: "1rem" }}>
     <StyledHeader>
-      Watch Season 4 on{" "}
+      Watch Season 4 Now Available on{" "}
       <img
         src="/images/netflix-logo.svg"
         style={{
@@ -39,12 +40,8 @@ const Announcement = () => (
           verticalAlign: "middle",
         }}
         alt="Netflix"
-      />{" "}
-      December 1
+      />
     </StyledHeader>
-    <CountdownWrapper>
-      <Countdown date="12/01/2019" />
-    </CountdownWrapper>
   </section>
 )
 
