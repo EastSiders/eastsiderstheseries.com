@@ -915,7 +915,16 @@
     "season": 4,
     "title": "Kill to Know",
     "artist": { "name": "Wiz Kilo", "url": "http://wizkilo.com/" },
-    "urls": []
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/kill-to-know/1490685735?i=1490685736"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/3QnbPR2YstR50w1NHGeKqe"
+      }
+    ]
   },
   {
     "season": 4,
@@ -933,7 +942,16 @@
     "season": 4,
     "title": "Last Nite of my Life",
     "artist": { "name": "Wiz Kilo", "url": "http://wizkilo.com/" },
-    "urls": []
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/last-nite-of-my-life/1490685610?i=1490685611"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/1wIud2B09k8mA2lSxSeREv"
+      }
+    ]
   },
   {
     "season": 4,
