@@ -930,13 +930,31 @@
     "season": 4,
     "title": "Bricks",
     "artist": { "name": "Wiz Kilo", "url": "http://wizkilo.com/" },
-    "urls": []
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/bricks/1490685995?i=1490686056"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/5yjBSneRH7v9MZJtSzfbmG"
+      }
+    ]
   },
   {
     "season": 4,
     "title": "Undefeated",
     "artist": { "name": "Wiz Kilo", "url": "http://wizkilo.com/" },
-    "urls": []
+    "urls": [
+      {
+        "type": "apple",
+        "url": "https://music.apple.com/us/album/undefeated/1490686110?i=1490686111"
+      },
+      {
+        "type": "spotify",
+        "url": "https://open.spotify.com/track/4aTbDD1DlLSTxvEiMjfyHU"
+      }
+    ]
   },
   {
     "season": 4,
