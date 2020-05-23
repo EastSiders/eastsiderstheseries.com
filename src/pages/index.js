@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
+import Image from "gatsby-image"
 import styled from "styled-components"
 import {
   Header,
@@ -22,7 +23,8 @@ const Wrapper = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     "featured featured featured side1"
-    "featured featured featured side2";
+    "featured featured featured side2"
+    "featured featured featured .";
 
   @media (max-width: ${Responsive.onlyTablet.maxWidth}px) {
     grid-template-columns: repeat(2, 1fr);
@@ -30,6 +32,35 @@ const Wrapper = styled.div`
       "featured featured"
       "featured featured"
       "side1    side2";
+  }
+`
+
+const EmmyWrapper = styled.div`
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "header header header header header header header header"
+    "image blurb blurb blurb blurb blurb blurb blurb";
+
+  @media (max-width: ${Responsive.onlyTablet.maxWidth}px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "image"
+      "blurb";
+  }
+
+  h1 {
+    grid-area: header;
+  }
+
+  div.image {
+    grid-area: image;
+  }
+
+  div.blurb {
+    grid-area: blurb;
   }
 `
 
@@ -94,6 +125,13 @@ const IndexPage = () => {
           url
         }
       }
+      emmyPic: file(relativePath: { eq: "emmy_nominated.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 400, maxHeight: 400) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
   const { featuredSeason } = data
@@ -106,6 +144,36 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Wrapper>
         <Featured>
+          <EmmyWrapper>
+            <Header as="h1">8 Daytime Emmy Nomintations</Header>
+            <Image
+              fluid={data.emmyPic.childImageSharp.fluid}
+              className="ui image rounded"
+              alt="Nominated for 8 Daytime Emmys"
+            />
+            <div className="blurb">
+              <p>
+                We are honored to have received 8 Daytime Emmy nominations for
+                the final season of EastSiders:{" "}
+              </p>
+              <ul>
+                <li>Outstanding Digital Daytime Drama</li>
+                <li>Outstanding Writing</li>
+                <li>Outstanding Supporting Actor: Willam</li>
+                <li>Outstanding Supporting Actor: Leith Burke</li>
+                <li>Outstanding Guest Star: Lin Shaye</li>
+                <li>Outstanding Makeup</li>
+                <li>Outstanding Costume Design</li>
+                <li>Outstanding Casting</li>
+              </ul>
+              <p>
+                Congrats to all!{" "}
+                <span role="img" aria-label="trophy emoji">
+                  🏆
+                </span>
+              </p>
+            </div>
+          </EmmyWrapper>
           <Header as="h1">
             Watch the Season {featuredSeason.season} Trailer
           </Header>

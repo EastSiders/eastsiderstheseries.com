@@ -6,8 +6,17 @@ import styled from "styled-components"
 
 const StyledHeader = styled.h1`
   margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.5rem;
+  color: #fff !important;
+  background-color: #000;
+  text-align: center;
+`
+const StyledSubHeader = styled.h3`
+  margin-top: 0;
   margin-bottom: 1rem;
   padding: 0.5rem;
+  padding-top: 0;
   color: #fff !important;
   background-color: #000;
   text-align: center;
@@ -30,18 +39,19 @@ const StyledHeader = styled.h1`
 
 const Announcement = () => (
   <section style={{ marginBottom: "1rem" }}>
-    <StyledHeader>
-      Watch Season 4 Now Available on{" "}
+    <StyledHeader>8 Daytime Emmy Nomintations.</StyledHeader>
+    <StyledSubHeader>
+      Watch Season 4 on{" "}
       <img
         src="/images/netflix-logo.svg"
         style={{
           display: "inline-block",
-          height: "2rem",
+          height: "1.4rem",
           verticalAlign: "middle",
         }}
         alt="Netflix"
       />
-    </StyledHeader>
+    </StyledSubHeader>
   </section>
 )
 

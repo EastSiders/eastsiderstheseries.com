@@ -69,14 +69,15 @@ const ContactForm = () => {
       />
       <input type="hidden" name="form-name" value="Contact Us" />
       <p hidden>
-        <label>
+        <label htmlFor="bot-fieldInput">
           Don’t fill this out:{" "}
-          <input name="bot-field" onChange={handleChange} />
+          <input id="bot-fieldInput" name="bot-field" onChange={handleChange} />
         </label>
       </p>
       <Form.Field required>
-        <label>Name</label>
+        <label htmlFor="nameInput">Name</label>
         <input
+          id="nameInput"
           name="name"
           value={state.name}
           placeholder="Name"
@@ -85,8 +86,9 @@ const ContactForm = () => {
         />
       </Form.Field>
       <Form.Field required>
-        <label>Email</label>
+        <label htmlFor="emailInput">Email</label>
         <input
+          id="emailInput"
           name="email"
           value={state.email}
           placeholder="Email"
@@ -95,8 +97,9 @@ const ContactForm = () => {
         />
       </Form.Field>
       <Form.Field required>
-        <label>Message</label>
+        <label htmlFor="messageInput">Message</label>
         <TextArea
+          id="messageInput"
           name="message"
           value={state.message}
           placeholder="Message"
