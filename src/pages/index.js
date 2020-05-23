@@ -261,10 +261,9 @@ const IndexPage = () => {
             </Button>
           </ShareButtons>
           <p style={{ paddingTop: "0.5em" }}>
-            The fourth and final season of Eastsiders will be available on
-            Netflix December 1 . Until then, get a glimpse of whats coming by
-            watching the Season 4 trailer above. Share with your friends using
-            the provided social sharing buttons.
+            The fourth and final season of Eastsiders is available to watch on
+            Netflix. Get a glimpse by watching the Season 4 trailer above. Share
+            with your friends using the provided social sharing buttons.
             <br />
             <br />
             All 3 seasons of Eastsiders are available to{" "}
